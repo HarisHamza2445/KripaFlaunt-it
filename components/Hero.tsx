@@ -53,7 +53,7 @@ export default function Hero() {
             <div className={styles.cardImageWrap}>
               <div className={styles.cardImage}>
                 <Image
-                  src="/imag1.png"
+                  src="/image 237.png"
                   alt="Bridal Couture - Pink Lehenga with Emerald Jewelry"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"

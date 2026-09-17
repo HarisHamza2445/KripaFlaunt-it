@@ -155,26 +155,65 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 40px 0 0;
+    padding: 30px 0 0;
   }
 
   .footerContent {
-    padding: 0 24px;
+    padding: 0 20px;
+  }
+
+  .footerMain {
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+
+  .brandDesc {
+    font-size: 12px;
   }
 
   .footerLinks {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 24px;
+  }
+
+  .footerCol h4 {
+    font-size: 8px;
+    margin-bottom: 12px;
+  }
+
+  .footerCol a {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .phoneLink {
+    font-size: 13px !important;
+  }
+
+  .socialLinks {
+    gap: 20px;
+  }
+
+  .socialIcon {
+    font-size: 8px;
   }
 
   .footerBottom {
     flex-direction: column;
     gap: 12px;
     text-align: center;
+    padding: 16px 0;
+  }
+
+  .footerBottom p {
+    font-size: 8px;
+    letter-spacing: 1px;
   }
 
   .footerBottomLinks {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
+    font-size: 8px;
   }
 }

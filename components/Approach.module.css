@@ -183,18 +183,62 @@
 
 @media (max-width: 768px) {
   .approach {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .approachContent {
-    padding: 0 24px;
+    padding: 0 20px;
+  }
+
+  .approachHeader {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    margin-bottom: 10px;
   }
 
   .sectionTitle {
-    font-size: 38px;
+    font-size: 32px;
   }
 
-  .approachImage {
-    aspect-ratio: 4 / 3;
+  .approachDesc {
+    font-size: 13px;
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .approachRight {
+    padding: 24px 20px;
+  }
+
+  .principlesTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .principleItem {
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+
+  .principleHeader {
+    margin-bottom: 6px;
+  }
+
+  .principleNum {
+    font-size: 9px;
+  }
+
+  .principleTitle {
+    font-size: 9px;
+  }
+
+  .principleDesc {
+    font-size: 12px;
   }
 }

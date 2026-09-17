@@ -150,23 +150,60 @@
 
 @media (max-width: 768px) {
   .contact {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .contactContent {
-    padding: 0 24px;
+    padding: 0 20px;
+    gap: 40px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .badgeDot {
+    width: 7px;
+    height: 7px;
   }
 
   .sectionTitle {
-    font-size: 36px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .contactText {
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+
+  .contactItem {
+    font-size: 13px;
+    gap: 12px;
+  }
+
+  .contactForm {
+    gap: 12px;
   }
 
   .formRow {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    padding: 14px 16px;
+    font-size: 13px;
   }
 
   .btnSubmit {
     width: 100%;
     text-align: center;
+    padding: 16px 24px;
+    font-size: 9px;
   }
 }

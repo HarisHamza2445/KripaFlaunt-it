@@ -185,22 +185,97 @@
 
 @media (max-width: 768px) {
   .about {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .aboutContent {
-    padding: 0 24px;
+    padding: 0 20px;
+  }
+
+  .aboutRight {
+    padding: 0 20px 24px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .badgeDot {
+    width: 7px;
+    height: 7px;
   }
 
   .sectionTitle {
-    font-size: 38px;
+    font-size: 34px;
+  }
+
+  .titleLine {
+    width: 40px;
+    margin: 16px 0 20px;
+  }
+
+  .aboutText {
+    font-size: 13px;
   }
 
   .aboutCards {
     grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutCard {
+    padding: 18px;
+  }
+
+  .aboutCard h4 {
+    font-size: 9px;
+    margin-bottom: 6px;
+  }
+
+  .aboutCard p {
+    font-size: 12px;
+  }
+
+  .btnMeet {
+    padding: 14px 28px;
+    font-size: 9px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .founderCard {
+    border-radius: 4px;
+  }
+
+  .cardLabel {
+    font-size: 8px;
+    padding: 14px 14px 0;
   }
 
   .founderImage {
-    height: 350px;
+    padding: 10px;
+    height: 320px;
+  }
+
+  .founderInfo {
+    padding: 16px;
+  }
+
+  .founderName {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+
+  .founderTitle {
+    font-size: 9px;
+    margin-bottom: 3px;
+  }
+
+  .founderLocation {
+    font-size: 8px;
   }
 }

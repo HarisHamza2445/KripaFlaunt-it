@@ -3,7 +3,7 @@ import styles from './WorkShowcase.module.css';
 
 const spotlightWorks = [
   {
-    image: '/imag10.png',
+    image: '/img3.png',
     plate: 'PLATE NO. 042 // BRIDAL DETAILING',
     location: 'PUNE STUDIO',
     client: 'Noyonita Lodh',
@@ -13,7 +13,7 @@ const spotlightWorks = [
     alt: 'Bridal Detailing Work',
   },
   {
-    image: '/imag11.png',
+    image: '/img4.png',
     plate: 'PLATE NO. 088 // RECEPTION SILHOUETTE',
     location: 'PUNE STUDIO',
     client: 'Tanvee Kishore',
@@ -23,7 +23,7 @@ const spotlightWorks = [
     alt: 'Reception Silhouette Work',
   },
   {
-    image: '/imag12.png',
+    image: '/img5.png',
     plate: 'PLATE NO. 091 // SANGEET KALIDAR',
     location: 'PUNE STUDIO',
     client: 'Purva Shinde',

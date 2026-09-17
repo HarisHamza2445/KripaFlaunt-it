@@ -232,15 +232,37 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 50px 0;
+    padding: 40px 0 50px;
   }
 
   .heroContent {
-    padding: 0 24px;
+    padding: 0 20px;
+    gap: 40px;
+  }
+
+  .heroBadge {
+    font-size: 9px;
+    margin-bottom: 24px;
   }
 
   .heroTitle {
-    font-size: 46px;
+    font-size: 42px;
+  }
+
+  .heroTitle em {
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: -1px;
+  }
+
+  .titleLine {
+    width: 40px;
+    margin: 20px 0;
+  }
+
+  .heroSubtitle {
+    font-size: 14px;
+    margin-bottom: 32px;
   }
 
   .heroButtons {
@@ -252,11 +274,24 @@
   .btnSecondary {
     text-align: center;
     justify-content: center;
+    padding: 16px 24px;
   }
 
   .heroInfo {
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
+  }
+
+  .infoItem {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .infoItem:last-child {
+    border-bottom: none;
   }
 
   .heroRight {
@@ -265,10 +300,17 @@
 
   .heroImageCard {
     width: 100%;
-    max-width: 456px;
+    max-width: 100%;
   }
 
   .cardImage {
-    height: 400px;
+    height: 420px;
+  }
+
+  .cardHeader,
+  .cardFooter {
+    font-size: 7.5px;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
   }
 }

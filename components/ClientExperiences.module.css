@@ -100,18 +100,64 @@
 
 @media (max-width: 768px) {
   .clientExperiences {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .clientExperiencesContent {
-    padding: 0 24px;
+    padding: 0 20px;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    margin-bottom: 12px;
   }
 
   .sectionTitle {
-    font-size: 36px;
+    font-size: 32px;
+  }
+
+  .titleLine {
+    width: 40px;
+    margin: 14px auto 16px;
+  }
+
+  .headerDesc {
+    font-size: 13px;
   }
 
   .testimonialsGrid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .testimonialCard {
+    padding: 24px 20px;
+  }
+
+  .stars {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+
+  .quote {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+
+  .clientInfo {
+    padding-top: 12px;
+  }
+
+  .clientName {
+    font-size: 9px;
+    margin-bottom: 3px;
+  }
+
+  .clientLocation {
+    font-size: 11px;
   }
 }

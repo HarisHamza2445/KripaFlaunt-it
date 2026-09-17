@@ -1,40 +1,49 @@
+'use client';
+
+import { useState } from 'react';
 import styles from './PortfolioArchive.module.css';
 
 const portfolioItems = [
   {
-    image: '/img7.png',
+    image: '/img3.png',
     title: 'Mother & Son Coordinated Set',
     palette: 'BLUSH & ROSE-GOLD',
+    occasion: 'MOTHER & SON',
     tag: '',
   },
   {
-    image: '/img8.png',
+    image: '/img4.png',
     title: 'Deep Wine Velvet Couture',
     palette: 'CRIMSON & WINE',
+    occasion: 'BRIDAL & HERITAGE',
     tag: '',
   },
   {
-    image: '/img9.png',
+    image: '/img5.png',
     title: 'Emerald & Gold Gala Outfit',
     palette: 'EMERALD & SAPPHIRE',
+    occasion: 'CELEBRITY & RUNWAY',
     tag: '',
   },
   {
-    image: '/img10.png',
+    image: '/img6.png',
     title: 'Blush Bridal Lehenga',
     palette: 'IVORY & ANTIQUE GOLD',
+    occasion: 'BRIDAL & HERITAGE',
     tag: '',
   },
   {
-    image: '/img11.png',
+    image: '/img7.png',
     title: 'Rose Gold Cocktail Gown',
     palette: 'BLUSH & ROSE-GOLD',
+    occasion: 'COCKTAIL & INDO-WESTERN',
     tag: 'WESTERN & COCKTAIL',
   },
   {
-    image: '/img12.png',
+    image: '/img8.png',
     title: 'Indo-Western Cape Set',
     palette: 'ANTIQUE GOLD & IVORY',
+    occasion: 'COCKTAIL & INDO-WESTERN',
     tag: 'INDO-WESTERN FUSION',
   },
 ];
@@ -57,6 +66,15 @@ const palettes2 = [
 ];
 
 export default function PortfolioArchive() {
+  const [activeOccasion, setActiveOccasion] = useState('ALL WORKS');
+  const [activePalette, setActivePalette] = useState('ALL COLOURS');
+
+  const filtered = portfolioItems.filter((item) => {
+    const matchOccasion = activeOccasion === 'ALL WORKS' || item.occasion === activeOccasion;
+    const matchPalette = activePalette === 'ALL COLOURS' || item.palette === activePalette || item.palette.split(' & ').reverse().join(' & ') === activePalette;
+    return matchOccasion && matchPalette;
+  });
+
   return (
     <section className={styles.portfolio}>
       <div className={styles.portfolioContent}>
@@ -75,7 +93,7 @@ export default function PortfolioArchive() {
           <div className={styles.filterRow}>
             <span className={styles.filterLabel}>OCCASION:</span>
             {occasions.map((item, i) => (
-              <button key={i} className={`${styles.filterTag} ${i === 0 ? styles.filterActive : ''}`}>
+              <button key={i} className={`${styles.filterTag} ${item === activeOccasion ? styles.filterActive : ''}`} onClick={() => setActiveOccasion(item)}>
                 {item}
               </button>
             ))}
@@ -83,7 +101,7 @@ export default function PortfolioArchive() {
           <div className={styles.filterRow}>
             <span className={styles.filterLabel}>PALETTE:</span>
             {palettes.map((item, i) => (
-              <button key={i} className={`${styles.filterTag} ${i === 0 ? styles.filterActive : ''}`}>
+              <button key={i} className={`${styles.filterTag} ${item.name === activePalette ? styles.filterActive : ''}`} onClick={() => setActivePalette(item.name)}>
                 {item.color && <span className={styles.filterDot} style={{ background: item.color }} />}
                 {item.name}
               </button>
@@ -91,16 +109,22 @@ export default function PortfolioArchive() {
           </div>
           <div className={styles.filterRow}>
             {palettes2.map((item, i) => (
-              <button key={i} className={`${styles.filterTag} ${item.isCustom ? styles.filterCustom : ''}`}>
-                {item.color && <span className={styles.filterDot} style={{ background: item.color }} />}
-                {item.isCustom && '+ '}{item.name}
-              </button>
+              item.isCustom ? (
+                <a key={i} href="/colour-studio" className={`${styles.filterTag} ${styles.filterCustom}`}>
+                  + {item.name}
+                </a>
+              ) : (
+                <button key={i} className={`${styles.filterTag} ${item.name === activePalette ? styles.filterActive : ''}`} onClick={() => setActivePalette(item.name)}>
+                  {item.color && <span className={styles.filterDot} style={{ background: item.color }} />}
+                  {item.name}
+                </button>
+              )
             ))}
           </div>
         </div>
 
         <div className={styles.portfolioGrid}>
-          {portfolioItems.map((item, index) => (
+          {filtered.length > 0 ? filtered.map((item, index) => (
             <div key={index} className={styles.portfolioCard}>
               <div className={styles.portfolioImage}>
                 <img src={item.image} alt={item.title} loading="lazy" />
@@ -118,10 +142,15 @@ export default function PortfolioArchive() {
                 <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.inquire}>INQUIRE &rarr;</a>
               </div>
             </div>
-          ))}
+          )) : (
+            <div className={styles.noResults}>
+              <p>No items match this filter. Try a different combination.</p>
+            </div>
+          )}
         </div>
 
         <div className={styles.portfolioFooter}>
+          <a href="/gallery" className={styles.btnCreate}>VIEW GALLERY</a>
           <a href="/colour-studio" className={styles.btnCreate}>CREATE A CUSTOM PALLATE</a>
         </div>
       </div>

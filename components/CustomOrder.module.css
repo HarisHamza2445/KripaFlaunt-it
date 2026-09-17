@@ -138,20 +138,33 @@
 
 @media (max-width: 768px) {
   .customOrder {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .customOrderContent {
-    padding: 0 24px;
+    padding: 0 20px;
   }
 
   .header {
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    margin-bottom: 10px;
   }
 
   .sectionTitle {
-    font-size: 38px;
+    font-size: 32px;
+  }
+
+  .headerDesc {
+    font-size: 13px;
+    max-width: 100%;
+    padding-top: 0;
   }
 
   .stepsGrid {
@@ -161,9 +174,39 @@
   .stepCard {
     border-right: none;
     border-bottom: 1px solid #E7D8D2;
+    padding: 20px;
   }
 
   .stepCard:last-child {
     border-bottom: none;
+  }
+
+  .stepNum {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .stepTitle {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .stepDesc {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+
+  .stepLabel {
+    font-size: 8px;
+    padding-top: 12px;
+  }
+
+  .ctaWrapper {
+    margin-top: 30px;
+  }
+
+  .btnStart {
+    padding: 14px 28px;
+    font-size: 9px;
   }
 }

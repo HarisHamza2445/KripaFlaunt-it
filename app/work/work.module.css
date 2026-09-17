@@ -51,7 +51,9 @@
 
 .heroImageContent img {
   width: 100%;
-  height: auto;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
   display: block;
 }
 
@@ -391,19 +393,130 @@
 }
 
 @media (max-width: 768px) {
-  .workGrid2,
-  .workGrid3,
-  .featuredContent {
-    grid-template-columns: 1fr;
+  .hero {
+    padding: 40px 0 24px;
   }
 
-  .heroTitle,
-  .featuredTitle {
+  .heroContent {
+    padding: 0 20px;
+  }
+
+  .heroTitle {
     font-size: 36px;
   }
 
+  .heroImage {
+    padding-bottom: 24px;
+  }
+
+  .heroImageContent {
+    padding: 0 20px;
+  }
+
+  .heroImageContent img {
+    height: 300px;
+  }
+
+  .filters {
+    padding: 16px 0;
+  }
+
+  .filtersContent {
+    padding: 0 20px;
+  }
+
   .filterTabs {
+    gap: 20px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .filterTab {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .workSection {
+    padding: 24px 0;
+  }
+
+  .workContent {
+    padding: 0 20px;
+  }
+
+  .workGrid2,
+  .workGrid3 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .workTitle {
+    font-size: 18px;
+  }
+
+  .workDesc {
+    font-size: 12px;
+  }
+
+  .featured {
+    padding: 50px 0;
+  }
+
+  .featuredContent {
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .featuredTitle {
+    font-size: 32px;
+  }
+
+  .featuredDesc {
+    font-size: 13px;
+  }
+
+  .ctaSection {
+    padding: 50px 0;
+  }
+
+  .ctaContent {
+    padding: 0 20px;
+  }
+
+  .ctaCard {
+    padding: 40px 20px;
+  }
+
+  .ctaTitle {
+    font-size: 32px;
+  }
+
+  .ctaBadge {
+    font-size: 8px;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: center;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btnBook,
+  .btnCall {
+    padding: 14px 20px;
+    font-size: 9px;
+  }
+
+  .ctaFeatures {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .ctaFeatures span {
+    font-size: 8px;
   }
 }

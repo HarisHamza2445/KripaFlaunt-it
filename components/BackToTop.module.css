@@ -29,3 +29,12 @@
   background: #824F41;
   transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+  .backToTop {
+    bottom: 80px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+}

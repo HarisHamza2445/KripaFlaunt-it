@@ -3,7 +3,6 @@ import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import About from '@/components/About';
 import Approach from '@/components/Approach';
-import Collections from '@/components/Collections';
 import CustomOrder from '@/components/CustomOrder';
 import Heritage from '@/components/Heritage';
 import PortfolioArchive from '@/components/PortfolioArchive';
@@ -22,10 +21,9 @@ export default function Home() {
         <Features />
         <About />
         <Approach />
-        <Collections />
+        <PortfolioArchive />
         <CustomOrder />
         <Heritage />
-        <PortfolioArchive />
         <Experience />
         <ClientExperiences />
         <FAQ />

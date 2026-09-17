@@ -72,14 +72,29 @@
   }
 
   .testimonialsContent {
-    padding: 0 24px;
+    padding: 0 20px;
   }
 
   .testimonialsGrid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .cardPlate {
+    font-size: 7.5px;
+    padding: 8px 12px;
   }
 
   .testimonialImage {
-    height: 350px;
+    height: 320px;
+  }
+
+  .ctaWrapper {
+    margin-top: 30px;
+  }
+
+  .btnView {
+    padding: 14px 28px;
+    font-size: 9px;
   }
 }

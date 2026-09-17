@@ -127,19 +127,76 @@
 
 @media (max-width: 768px) {
   .heritage {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .heritageContent {
-    padding: 0 24px;
+    padding: 0 20px;
   }
 
   .header {
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    margin-bottom: 10px;
   }
 
   .sectionTitle {
-    font-size: 38px;
+    font-size: 32px;
+  }
+
+  .titleLine {
+    width: 40px;
+    margin-top: 16px;
+  }
+
+  .headerRight {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .headerDesc {
+    font-size: 13px;
+  }
+
+  .transformGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .transformCard {
+    padding: 20px;
+  }
+
+  .cardHeader {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+  }
+
+  .cardNum {
+    font-size: 8px;
+  }
+
+  .cardTag {
+    font-size: 8px;
+  }
+
+  .cardTitle {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .cardDesc {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+
+  .cardIdeal {
+    font-size: 8px;
+    padding-top: 12px;
   }
 }

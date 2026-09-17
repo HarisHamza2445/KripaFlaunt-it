@@ -229,19 +229,114 @@
 
 @media (max-width: 768px) {
   .workShowcase {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .workShowcaseContent {
-    padding: 0 24px;
+    padding: 0 20px;
   }
 
   .header {
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    margin-bottom: 10px;
   }
 
   .sectionTitle {
-    font-size: 38px;
+    font-size: 32px;
+  }
+
+  .headerDesc {
+    font-size: 13px;
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .runwayBanner {
+    padding: 14px 16px;
+    margin-bottom: 20px;
+  }
+
+  .bannerLabel {
+    font-size: 8px;
+  }
+
+  .bannerTitle {
+    font-size: 18px;
+  }
+
+  .bannerRight {
+    font-size: 8px;
+  }
+
+  .categories {
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .categoryTag {
+    padding: 8px 16px;
+    font-size: 8.5px;
+  }
+
+  .spotlightHeader {
+    margin-bottom: 20px;
+  }
+
+  .spotlightBadge {
+    font-size: 8px;
+    margin-bottom: 8px;
+  }
+
+  .spotlightTitle {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+
+  .spotlightDesc {
+    font-size: 12px;
+  }
+
+  .spotlightGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .cardPlate {
+    font-size: 7.5px;
+    padding: 8px 12px;
+  }
+
+  .cardImage {
+    height: 300px;
+  }
+
+  .cardInfo {
+    padding: 16px;
+  }
+
+  .cardClient {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .cardTitle {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+
+  .cardDesc {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .cardDesigner {
+    font-size: 8px;
+    padding-top: 10px;
   }
 }

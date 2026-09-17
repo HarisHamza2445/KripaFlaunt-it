@@ -33,6 +33,8 @@ export default function Header() {
             <a href="/about" className={styles.navLink} onClick={() => setMenuOpen(false)}>ABOUT</a>
             <span className={styles.navSep}>|</span>
             <a href="/work" className={styles.navLink} onClick={() => setMenuOpen(false)}>WORK</a>
+            <span className={styles.navSep}>|</span>
+            <a href="/gallery" className={styles.navLink} onClick={() => setMenuOpen(false)}>GALLERY</a>
           </nav>
 
           <div className={styles.headerRight}>

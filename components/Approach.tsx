@@ -50,7 +50,7 @@ export default function Approach() {
               </div>
               <div className={styles.approachImage}>
                 <img
-                  src="/imag3.png"
+                  src="/img2.png"
                   alt="Hand-Tailored Cuts - Atelier Protocol"
                   loading="lazy"
                 />

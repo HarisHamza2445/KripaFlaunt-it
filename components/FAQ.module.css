@@ -131,16 +131,42 @@
 
 @media (max-width: 768px) {
   .faq {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .faqContent {
-    padding: 0 24px;
+    padding: 0 20px;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
   }
 
   .sectionTitle {
-    font-size: 36px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .faqDesc {
+    font-size: 13px;
+  }
+
+  .faqQuestion {
+    padding: 18px 20px;
+    font-size: 17px;
+  }
+
+  .faqAnswer {
+    padding: 0 20px;
+  }
+
+  .open .faqAnswer {
+    padding-bottom: 18px;
+  }
+
+  .faqAnswer p {
+    font-size: 13px;
   }
 }

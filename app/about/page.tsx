@@ -22,7 +22,7 @@ export default function AboutPage() {
             </p>
             <div className={styles.heroGrid}>
               <div className={styles.heroImageCard}>
-                <img src="/img13.png" alt="Atelier Pune" loading="lazy" />
+                <img src="/img9.png" alt="Atelier Pune" loading="lazy" />
                 <div className={styles.heroImageOverlay}>
                   <span className={styles.overlayLabel}>ATELIER PUNE &bull; ARCHIVAL CRAFT</span>
                   <span className={styles.overlayText}><em>Silken drapes, hand zardozi &amp; micro-pleated tulle</em></span>
@@ -76,7 +76,7 @@ export default function AboutPage() {
             </div>
             <div className={styles.storyRight}>
               <div className={styles.storyImageCard}>
-                <img src="/img14.png" alt="The Atelier Rhythm" loading="lazy" />
+                <img src="/img10.png" alt="The Atelier Rhythm" loading="lazy" />
                 <div className={styles.storyImageOverlay}>
                   <span className={styles.rhythmIcon}>&#10023;</span>
                   <span className={styles.rhythmBadge}>THE ATELIER RHYTHM</span>
@@ -197,7 +197,7 @@ export default function AboutPage() {
           <div className={styles.founderContent}>
             <div className={styles.founderLeft}>
               <div className={styles.founderImageCard}>
-                <img src="/image 238.png" alt="Kripa Harjwani" loading="lazy" />
+                <img src="/img1.png" alt="Kripa Harjwani" loading="lazy" />
               </div>
               <div className={styles.founderNameCard}>
                 <h3 className={styles.founderName}>Kripa Harjwani</h3>

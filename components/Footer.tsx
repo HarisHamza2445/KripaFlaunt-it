@@ -19,12 +19,7 @@ export default function Footer() {
               personalised Indian, western and Indo-western outfits in Pimple
               Saudagar, Pune.
             </p>
-            <div className={styles.studioAddress}>
-              <h4>STUDIO ADDRESS</h4>
-              <p>3RD FLOOR, VARDANA PLAZA, OPPOSITE PARK ROYAL SOCIETY,
-              AKASH GANGA ROAD, KOKANE CHOWK, PIMPLE SAUDAGAR, PUNE,
-              MAHARASHTRA 411027</p>
-            </div>
+
           </div>
 
           <div className={styles.footerLinks}>
@@ -34,6 +29,7 @@ export default function Footer() {
               <a href="/about">About</a>
               <a href="/#collections">Collections</a>
               <a href="/work">Work</a>
+              <a href="/gallery">Gallery</a>
               <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer">Contact</a>
             </div>
             <div className={styles.footerCol}>

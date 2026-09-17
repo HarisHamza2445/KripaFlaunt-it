@@ -173,22 +173,76 @@
 
 @media (max-width: 768px) {
   .collections {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .collectionsContent {
-    padding: 0 24px;
+    padding: 0 20px;
+  }
+
+  .collectionsHeader {
+    margin-bottom: 30px;
+  }
+
+  .sectionBadge {
+    font-size: 9px;
+    margin-bottom: 12px;
   }
 
   .sectionTitle {
-    font-size: 38px;
+    font-size: 32px;
+  }
+
+  .titleLine {
+    width: 40px;
+    margin: 14px auto 16px;
+  }
+
+  .collectionsDesc {
+    font-size: 13px;
   }
 
   .collectionsGrid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
-  .collectionImage {
-    aspect-ratio: 3 / 4;
+  .collectionCard {
+    border-radius: 4px;
+  }
+
+  .collectionInfo {
+    padding: 16px;
+  }
+
+  .collectionInfo h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .collectionInfo p {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+
+  .collectionActions {
+    padding-top: 12px;
+  }
+
+  .customOrder {
+    font-size: 8px;
+  }
+
+  .inquire {
+    font-size: 9px;
+  }
+
+  .collectionsFooter {
+    margin-top: 30px;
+  }
+
+  .viewAll {
+    padding: 14px 28px;
+    font-size: 9px;
   }
 }

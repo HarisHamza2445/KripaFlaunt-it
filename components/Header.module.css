@@ -176,22 +176,25 @@
   }
 
   .headerContent {
-    padding: 16px 20px;
+    padding: 14px 16px;
   }
 
   .nav {
     display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
-  background: #FFF8F6E5;
+    bottom: 0;
+    background: rgba(250, 248, 245, 0.98);
+    backdrop-filter: blur(10px);
     flex-direction: column;
-    padding: 25px 50px;
+    padding: 100px 24px 40px;
     gap: 0;
     transform: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    z-index: 99;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .navOpen {
@@ -203,9 +206,12 @@
   }
 
   .navLink {
-    padding: 14px 0;
+    padding: 18px 0;
     width: 100%;
     text-align: left;
+    font-size: 13px;
+    letter-spacing: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   }
 
   .headerRight {
@@ -214,6 +220,7 @@
 
   .mobileMenuBtn {
     display: flex;
+    z-index: 101;
   }
 
   .mobileMenuBtn.active span:nth-child(1) {

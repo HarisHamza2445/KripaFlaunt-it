@@ -346,7 +346,7 @@ export default function ColourStudioPage() {
         <section className={styles.quoteSection}>
           <div className={styles.quoteContent}>
             <div className={styles.quoteImage}>
-              <img src="/image 238.png" alt="Kripa Harjwani" loading="lazy" />
+              <img src="/img1.png" alt="Kripa Harjwani" loading="lazy" />
             </div>
             <div className={styles.quoteRight}>
               <span className={styles.quoteLabel}>DIRECT FROM THE MAÎTRE COUTURIÈRE</span>

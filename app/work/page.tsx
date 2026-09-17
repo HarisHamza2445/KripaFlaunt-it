@@ -7,42 +7,42 @@ import styles from './work.module.css';
 
 const allWorkItems = [
   {
-    image: '/img16.png',
+    image: '/img12.png',
     tag: 'BRIDAL / OCCASION',
     categories: ['BRIDAL', 'OCCASION'],
     title: 'Sangeet Kalidar',
     desc: 'A flowing silhouette designed with delicate detailing and a soft, elegant finish.',
   },
   {
-    image: '/img17.png',
+    image: '/img13.png',
     tag: 'BRIDAL / RECEPTION',
     categories: ['BRIDAL'],
     title: 'Reception Silhouette',
     desc: 'A refined evening look combining modern structure with graceful detailing.',
   },
   {
-    image: '/img18.png',
+    image: '/img14.png',
     tag: 'OCCASION WEAR',
     categories: ['OCCASION'],
     title: 'Contemporary Fusion',
     desc: 'A modern interpretation of traditional dressing with a clean and effortless feel.',
   },
   {
-    image: '/img19.png',
+    image: '/img15.png',
     tag: 'BRIDAL',
     categories: ['BRIDAL'],
     title: 'Bridal Detailing',
     desc: 'Intricate craftsmanship and thoughtful details come together for a timeless bridal look.',
   },
   {
-    image: '/img20.png',
+    image: '/img16.png',
     tag: 'BESPOKE EVENING',
     categories: ['BESPOKE'],
     title: 'Royal Sapphire Gown',
     desc: 'Hand-embroidered zardozi flourishes across deep royal jewel tones.',
   },
   {
-    image: '/img21.png',
+    image: '/img17.png',
     tag: 'BESPOKE FAMILY',
     categories: ['BESPOKE'],
     title: 'Coordinated Heirloom Pair',
@@ -80,7 +80,7 @@ export default function WorkPage() {
 
         <section className={styles.heroImage}>
           <div className={styles.heroImageContent}>
-            <img src="/img15.png" alt="Our Work" />
+            <img src="/img11.png" alt="Our Work" />
           </div>
         </section>
 
