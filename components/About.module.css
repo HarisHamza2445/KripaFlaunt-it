@@ -1,0 +1,206 @@
+.about {
+  padding: 100px 0;
+  background: #FAF6F2;
+}
+
+.aboutContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 55px;
+  display: grid;
+  grid-template-columns: 0.85fr 1fr;
+  gap: 0;
+  align-items: start;
+}
+
+.aboutRight {
+  background: #FAF6F2;
+  padding: 64px;
+}
+
+.founderCard {
+  background: #FFFFFF;
+  border: 1px solid #E7D8D2;
+  position: relative;
+}
+
+.cardLabel {
+  padding: 20px 20px 0 20px;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+}
+
+.founderImage {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.founderImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.founderInfo {
+  padding: 25px 20px 30px 20px;
+  border-top: 1px solid #E7D8D2;
+}
+
+.founderName {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--brown);
+  margin-bottom: 10px;
+}
+
+.founderTitle {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.founderLocation {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray-light);
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: var(--brown);
+  margin-bottom: 20px;
+}
+
+.badgeDot {
+  width: 9px;
+  height: 9px;
+  background: var(--brown);
+  display: inline-block;
+}
+
+.sectionTitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0;
+  color: var(--black);
+}
+
+.sectionTitle em {
+  font-style: italic;
+  color: var(--brown);
+}
+
+.titleLine {
+  width: 55px;
+  height: 1.5px;
+  background: var(--brown);
+  margin: 22px 0 30px;
+}
+
+.aboutText {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--gray);
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.aboutText strong {
+  color: var(--black);
+  font-weight: 700;
+}
+
+.aboutCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.aboutCard {
+  background: #FFFFFF;
+  padding: 24px;
+  border: 1px solid #E7D8D2;
+}
+
+.aboutCard h4 {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.aboutCard p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.btnMeet {
+  display: inline-block;
+  background: var(--dark);
+  color: var(--white);
+  padding: 17px 40px;
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnMeet:hover {
+  background: var(--brown-dark);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1100px) {
+  .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .aboutRight {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .aboutContent {
+    padding: 0 24px;
+  }
+
+  .sectionTitle {
+    font-size: 38px;
+  }
+
+  .aboutCards {
+    grid-template-columns: 1fr;
+  }
+
+  .founderImage {
+    height: 350px;
+  }
+}

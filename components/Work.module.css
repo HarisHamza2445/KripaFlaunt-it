@@ -1,0 +1,142 @@
+.work {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.workContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.badgeDot {
+  width: 9px;
+  height: 9px;
+  background: var(--brown);
+  display: inline-block;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 45px;
+}
+
+.sectionTitle em {
+  font-style: italic;
+  color: var(--brown);
+}
+
+.workGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 280px 280px;
+  gap: 16px;
+}
+
+.workItem {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.workItem.large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.workItem img {
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.workItem:hover img {
+  transform: scale(1.04);
+}
+
+.workOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(26, 26, 26, 0.75), transparent 60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 28px;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.workItem:hover .workOverlay {
+  opacity: 1;
+}
+
+.workTag {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--brown-light);
+  margin-bottom: 8px;
+}
+
+.workOverlay h3 {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+@media (max-width: 1100px) {
+  .workGallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .workItem.large {
+    grid-column: span 2;
+    grid-row: span 1;
+    height: 350px;
+  }
+
+  .workItem:not(.large) {
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .work {
+    padding: 60px 0;
+  }
+
+  .workContent {
+    padding: 0 24px;
+  }
+
+  .sectionTitle {
+    font-size: 38px;
+  }
+
+  .workGallery {
+    grid-template-columns: 1fr;
+  }
+
+  .workItem.large {
+    grid-column: span 1;
+  }
+
+  .workItem,
+  .workItem.large {
+    height: 300px;
+  }
+}

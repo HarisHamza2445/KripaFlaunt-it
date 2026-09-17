@@ -1,0 +1,31 @@
+.backToTop {
+  position: fixed;
+  bottom: 96px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  background: var(--dark);
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.backToTop:hover {
+  background: #824F41;
+  transform: translateY(-3px);
+}

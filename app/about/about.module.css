@@ -1,0 +1,901 @@
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #824F41;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.hero {
+  padding: 60px 0 80px;
+  background: #FAF6F2;
+}
+
+.heroContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.heroTopBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #E7D8D2;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 50px;
+}
+
+.heroBadge {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 24px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: #824F41;
+  border: 1px solid #E7D8D2;
+  background: #FFF0ED;
+  padding: 8px 18px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: #824F41;
+}
+
+.heroDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--gray);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.heroImageCard {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.heroImageCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heroImageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(45, 36, 32, 0.88);
+  color: var(--white);
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.overlayLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+}
+
+.overlayText {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 13px;
+}
+
+.heroRight {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bespokeCard {
+  border: 1px solid #E7D8D2;
+  padding: 36px 32px;
+  background: #FFF0ED;
+}
+
+.bespokeLine {
+  width: 30px;
+  height: 2px;
+  background: var(--gray);
+  margin-bottom: 12px;
+}
+
+.bespokeBadge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.bespokeTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.bespokeDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.bespokeTags {
+  display: flex;
+  gap: 40px;
+  padding-top: 16px;
+  border-top: 1px solid #E7D8D2;
+}
+
+.bespokeTags span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+}
+
+.locationCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #E7D8D2;
+  padding: 20px 28px;
+  background: #FFF0ED;
+}
+
+.locationLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.locationText {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+}
+
+.locationIcon {
+  font-size: 20px;
+  color: var(--gray);
+}
+
+/* Story Section */
+.story {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.storyContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.storyBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.storyLine {
+  width: 30px;
+  height: 2px;
+  background: var(--gray);
+}
+
+.storyBadge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+}
+
+.storyTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.storyTitle em {
+  font-style: italic;
+  color: #824F41;
+}
+
+.storyDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--gray);
+  margin-bottom: 16px;
+}
+
+.studioBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  color: var(--black);
+  background: #FAF6F2;
+  padding: 14px 24px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.appointment {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.storyRight {
+  display: flex;
+}
+
+.storyImageCard {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #E7D8D2;
+}
+
+.storyImageCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.storyImageOverlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(250, 246, 242, 0.95);
+  padding: 20px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 320px;
+}
+
+.rhythmIcon {
+  font-size: 18px;
+  color: #824F41;
+  margin-bottom: 4px;
+}
+
+.rhythmBadge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #824F41;
+}
+
+.rhythmText {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--black);
+}
+
+/* Philosophy Section */
+.philosophy {
+  padding: 100px 0;
+  background: #FAF6F2;
+}
+
+.philosophyContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.philosophyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #E7D8D2;
+}
+
+.philosophyBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.philosophyBadge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+}
+
+.philosophyTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.philosophyDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  max-width: 440px;
+  padding-top: 10px;
+}
+
+.philosophyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.philCard {
+  background: var(--white);
+  border: 1px solid #E7D8D2;
+  padding: 36px 32px;
+}
+
+.philCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.philNum {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #824F41;
+  line-height: 1;
+}
+
+.philTag {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  background: #FAF6F2;
+  padding: 6px 14px;
+}
+
+.philTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.philDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.philFooter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid #E7D8D2;
+}
+
+.philLine {
+  width: 20px;
+  height: 1.5px;
+  background: var(--gray);
+}
+
+.philFooter span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+}
+
+/* Approach Section */
+.approach {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.approachContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.approachBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.approachBadge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+}
+
+.approachTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.approachTitle em {
+  font-style: italic;
+  color: #824F41;
+}
+
+.approachDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+.approachGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.approachCard {
+  background: #FAF6F2;
+  border: 1px solid #E7D8D2;
+  padding: 36px 32px;
+}
+
+.approachCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.approachNum {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #824F41;
+  line-height: 1;
+}
+
+.approachStage {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+}
+
+.approachCardTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.approachCardDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.approachCardFooter {
+  padding-top: 16px;
+  border-top: 1px solid #E7D8D2;
+}
+
+.deliverLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--black);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.approachCardFooter span:last-child {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+/* Founder Section */
+.founder {
+  padding: 100px 0;
+  background: #FAF6F2;
+}
+
+.founderContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.founderLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.founderImageCard {
+  border: 1px solid #E7D8D2;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.founderImageCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.founderNameCard {
+  background: var(--white);
+  border: 1px solid #E7D8D2;
+  border-top: none;
+  padding: 28px;
+  text-align: center;
+}
+
+.founderName {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.founderTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.founderLocation {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.founderBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.founderBadge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+}
+
+.founderTitle2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.founderDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 1.8;
+  color: var(--gray);
+  margin-bottom: 30px;
+}
+
+.quoteCard {
+  border: 1px solid #E7D8D2;
+  padding: 36px 32px;
+  background: var(--white);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.quoteIcon {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 60px;
+  color: #E7D8D2;
+  line-height: 1;
+  display: block;
+  margin-bottom: -10px;
+}
+
+.quoteText {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+
+.quoteFooter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 16px;
+  border-top: 1px solid #E7D8D2;
+}
+
+.quoteName {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--black);
+}
+
+.quoteDot {
+  color: var(--gray);
+}
+
+.quoteLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+}
+
+.quoteLocation {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  margin-left: auto;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stat {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #E7D8D2;
+}
+
+.statNum {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--black);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.statLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--gray);
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 100px 0;
+  background: #FAF6F2;
+}
+
+.ctaContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.ctaCard {
+  background: var(--white);
+  border: 1px dashed #E7D8D2;
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.ctaBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 28px;
+}
+
+.ctaDot {
+  width: 8px;
+  height: 8px;
+  background: #824F41;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.ctaSep {
+  color: #ccc;
+}
+
+.ctaTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.ctaTitle em {
+  font-style: italic;
+  color: #824F41;
+}
+
+.ctaLine {
+  width: 55px;
+  height: 1.5px;
+  background: #824F41;
+  margin: 18px auto 22px;
+}
+
+.ctaDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 35px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.btnBook {
+  display: inline-block;
+  background: var(--dark);
+  color: var(--white);
+  padding: 17px 38px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnBook:hover {
+  background: var(--brown-dark);
+  transform: translateY(-1px);
+}
+
+.btnCall {
+  display: inline-block;
+  background: transparent;
+  color: var(--black);
+  padding: 17px 38px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 1px solid var(--black);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnCall:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.ctaFeatures {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.ctaFeatures span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray-light);
+}
+
+@media (max-width: 768px) {
+  .heroGrid,
+  .storyContent,
+  .philosophyGrid,
+  .approachGrid,
+  .founderContent {
+    grid-template-columns: 1fr;
+  }
+
+  .heroTitle,
+  .storyTitle,
+  .philosophyTitle,
+  .approachTitle,
+  .founderTitle2 {
+    font-size: 36px;
+  }
+
+  .heroTopBar {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}

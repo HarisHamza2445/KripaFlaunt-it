@@ -1,0 +1,233 @@
+.portfolio {
+  padding: 100px 0;
+  background: #FAF6F2;
+}
+
+.portfolioContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.portfolioHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionBadge {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: #824F41;
+  margin-bottom: 15px;
+}
+
+.titleLine {
+  width: 55px;
+  height: 1.5px;
+  background: var(--brown);
+  margin: 16px auto 20px;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.portfolioDesc {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.filters {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.filterRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filterLabel {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  margin-right: 4px;
+}
+
+.filterTag {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  color: var(--gray);
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filterTag:hover {
+  border-color: var(--brown);
+  color: var(--brown);
+}
+
+.filterActive {
+  background: var(--dark);
+  color: var(--white);
+  border-color: var(--dark);
+}
+
+.filterCustom {
+  border-style: dashed;
+  color: var(--gray);
+}
+
+.filterDot {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.portfolioCard {
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s;
+}
+
+.portfolioCard:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.portfolioImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.portfolioImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.portfolioCard:hover .portfolioImage img {
+  transform: scale(1.04);
+}
+
+.portfolioTag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: var(--dark);
+  color: var(--white);
+  padding: 8px 14px;
+  font-size: 8.5px;
+  letter-spacing: 1.8px;
+  font-weight: 500;
+}
+
+.portfolioInfo {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.portfolioInfo h3 {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: var(--black);
+}
+
+.portfolioPalette {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--gray-light);
+}
+
+.inquire {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  color: var(--brown);
+  text-decoration: none;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.inquire:hover {
+  opacity: 0.7;
+}
+
+.portfolioFooter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btnCreate {
+  display: inline-block;
+  background: var(--dark);
+  color: var(--white);
+  padding: 17px 44px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnCreate:hover {
+  background: var(--brown-dark);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1100px) {
+  .portfolioGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    padding: 60px 0;
+  }
+
+  .portfolioContent {
+    padding: 0 24px;
+  }
+
+  .sectionTitle {
+    font-size: 38px;
+  }
+
+  .portfolioGrid {
+    grid-template-columns: 1fr;
+  }
+}

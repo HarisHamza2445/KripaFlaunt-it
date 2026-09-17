@@ -1,0 +1,200 @@
+.approach {
+  padding: 96px 0;
+  background: #FAF6F2;
+}
+
+.approachContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.approachHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #E7D8D2;
+}
+
+.sectionBadge {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+  margin-bottom: 15px;
+}
+
+.sectionTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.approachDesc {
+  max-width: 440px;
+  font-size: 14.5px;
+  line-height: 1.8;
+  color: var(--gray);
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.approachGrid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 0;
+  border: 1px solid #E7D8D2;
+  background: #FFFFFF;
+}
+
+.imageCard {
+  background: #FAF6F2;
+  position: relative;
+}
+
+.imageLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background: rgba(45, 36, 32, 0.9);
+  color: var(--white);
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.labelDot {
+  width: 8px;
+  height: 8px;
+  background: #c9a96e;
+  display: inline-block;
+}
+
+.approachImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  padding: 0;
+}
+
+.approachImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: rgba(45, 36, 32, 0.88);
+  color: var(--white);
+  font-size: 8.5px;
+  letter-spacing: 1.8px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.approachRight {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.principlesTitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 30px;
+  color: var(--black);
+}
+
+.principlesList {
+  display: flex;
+  flex-direction: column;
+}
+
+.principleItem {
+  padding: 18px 20px;
+  border: 1px solid #E7D8D2;
+  margin-bottom: 12px;
+  background: #FFFFFF;
+}
+
+.principleItem:last-child {
+  margin-bottom: 0;
+}
+
+.principleHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.principleNum {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--brown);
+}
+
+.principleTitle {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--black);
+}
+
+.principleDesc {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+@media (max-width: 1100px) {
+  .approachHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .approachGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .approachRight {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .approach {
+    padding: 60px 0;
+  }
+
+  .approachContent {
+    padding: 0 24px;
+  }
+
+  .sectionTitle {
+    font-size: 38px;
+  }
+
+  .approachImage {
+    aspect-ratio: 4 / 3;
+  }
+}

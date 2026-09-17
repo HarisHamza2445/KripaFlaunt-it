@@ -1,0 +1,247 @@
+.workShowcase {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.workShowcaseContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.sectionBadge {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+  margin-bottom: 15px;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.headerDesc {
+  max-width: 400px;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.runwayBanner {
+  background: var(--dark);
+  color: var(--white);
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.bannerLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bannerStar {
+  font-size: 14px;
+  color: #c9a96e;
+}
+
+.bannerLabel {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.bannerTitle {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 400;
+  flex: 1;
+  text-align: center;
+}
+
+.bannerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: #999;
+}
+
+.bannerLink {
+  color: var(--white) !important;
+  font-weight: 600;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.categoryTag {
+  padding: 10px 22px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  font-size: 9.5px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.categoryTag:hover {
+  border-color: var(--brown);
+  color: var(--brown);
+}
+
+.spotlightHeader {
+  margin-bottom: 35px;
+}
+
+.spotlightBadge {
+  font-size: 9px;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.spotlightTitle {
+  font-family: var(--font-serif);
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: var(--black);
+}
+
+.spotlightDesc {
+  font-size: 14px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.spotlightGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.spotlightCard {
+  background: var(--cream);
+}
+
+.cardPlate {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-size: 8.5px;
+  letter-spacing: 1.8px;
+  color: var(--gray);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.cardImage {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+
+.cardImage img {
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.spotlightCard:hover .cardImage img {
+  transform: scale(1.04);
+}
+
+.cardInfo {
+  padding: 22px;
+}
+
+.cardClient {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 4px;
+  color: var(--black);
+}
+
+.cardTitle {
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--brown);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.cardDesc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--gray);
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.cardDesigner {
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--gray-light);
+  padding-top: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  display: block;
+}
+
+@media (max-width: 1100px) {
+  .runwayBanner {
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+  }
+
+  .bannerRight {
+    align-items: center;
+  }
+
+  .spotlightGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .workShowcase {
+    padding: 60px 0;
+  }
+
+  .workShowcaseContent {
+    padding: 0 24px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sectionTitle {
+    font-size: 38px;
+  }
+}

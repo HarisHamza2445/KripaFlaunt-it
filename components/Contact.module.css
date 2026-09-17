@@ -1,0 +1,172 @@
+.contact {
+  padding: 100px 0;
+  background: var(--cream);
+}
+
+.contactContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.badgeDot {
+  width: 9px;
+  height: 9px;
+  background: var(--brown);
+  display: inline-block;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.sectionTitle em {
+  font-style: italic;
+  color: var(--brown);
+}
+
+.contactText {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 14px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.contactItem svg {
+  color: var(--brown);
+  flex-shrink: 0;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--black);
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  border-color: var(--brown);
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: #bbb;
+}
+
+.formGroup select {
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  color: #bbb;
+}
+
+.formGroup select:valid {
+  color: var(--black);
+}
+
+.btnSubmit {
+  background: var(--dark);
+  color: var(--white);
+  padding: 17px 36px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: var(--font-sans);
+  align-self: flex-start;
+}
+
+.btnSubmit:hover {
+  background: var(--brown-dark);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1024px) {
+  .contactContent {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 0;
+  }
+
+  .contactContent {
+    padding: 0 24px;
+  }
+
+  .sectionTitle {
+    font-size: 36px;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+
+  .btnSubmit {
+    width: 100%;
+    text-align: center;
+  }
+}

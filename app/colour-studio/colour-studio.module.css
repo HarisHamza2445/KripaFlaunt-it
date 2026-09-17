@@ -1,0 +1,997 @@
+.hero {
+  padding: 32px 0 48px;
+  background: #FFF8F6E5;
+}
+
+.heroContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 40px;
+  align-items: start;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.backLink {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--gray);
+  text-decoration: none;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+.backLink:hover {
+  color: var(--black);
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFF0ED;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.heroBadge span:last-child {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #824F41;
+}
+
+.badgeDot {
+  width: 7px;
+  height: 7px;
+  background: #824F41;
+  display: inline-block;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.heroTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 1.08;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: #824F41;
+}
+
+.heroDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--gray);
+  max-width: 520px;
+}
+
+.heroRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.featureCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--white);
+  border: 1px solid #E7D8D2;
+  padding: 16px 18px;
+  border-radius: 6px;
+}
+
+.featureIcon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--black);
+  margin-bottom: 2px;
+}
+
+.featureDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+  line-height: 1.4;
+}
+
+/* Main Grid */
+.mainGrid {
+  padding: 0;
+  background: var(--white);
+}
+
+.mainContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 60px;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 32px;
+  align-items: start;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Match Section */
+.matchSection {
+  border: 1px solid #E7D8D2;
+  padding: 24px 28px;
+  background: var(--white);
+}
+
+.matchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.matchBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFF0ED;
+  padding: 5px 12px;
+  border-radius: 16px;
+}
+
+.matchBadge span:last-child {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #824F41;
+}
+
+.stepCount {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.matchTabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.matchTab {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  padding: 10px 24px;
+  border: 1px solid #E7D8D2;
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.3s;
+  color: var(--black);
+}
+
+.matchTab:hover {
+  border-color: #824F41;
+  color: #824F41;
+}
+
+.matchTabActive {
+  border-color: var(--black);
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Hue Slider */
+.hueSection {
+  margin-bottom: 24px;
+}
+
+.hueHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.hueLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+}
+
+.hueValue {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--black);
+}
+
+.hueSlider {
+  margin-bottom: 12px;
+}
+
+.hueTrack {
+  position: relative;
+  height: 14px;
+  border-radius: 7px;
+  overflow: visible;
+}
+
+.hueGradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #F5E6D8, #D4A088, #C47B6A, #A06050, #924F61, #770F61);
+  border-radius: 7px;
+}
+
+.hueThumb {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  background: var(--white);
+  border: 2px solid var(--black);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.hueInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hexCode {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.colorName {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.colorDot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Curations */
+.curationsSection {
+  border-top: 1px solid #E7D8D2;
+  padding-top: 20px;
+}
+
+.curationsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.curationsLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+}
+
+.curationsHint {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.curationsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.curationItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.curationItem:hover {
+  background: #FFF0ED;
+}
+
+.curationDot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.curationName {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--black);
+}
+
+/* Textile Section */
+.textileSection {
+  border: 1px solid #E7D8D2;
+  padding: 24px 28px;
+  background: var(--white);
+}
+
+.textileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.textileTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 4px;
+}
+
+.textileSub {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.textileCount {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.textileGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.textileCard {
+  border: 1px solid #E7D8D2;
+  padding: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: var(--white);
+}
+
+.textileCard:hover {
+  border-color: #824F41;
+}
+
+.textileCardActive {
+  border-color: var(--black);
+  background: #FAF6F2;
+}
+
+.textileCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.textileName {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.textileDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.radio {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: 2px;
+}
+
+.radioActive {
+  border-color: var(--black);
+}
+
+.radioActive::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: var(--black);
+  border-radius: 50%;
+}
+
+.textileTags {
+  display: flex;
+  gap: 6px;
+}
+
+.textileTag {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: var(--gray);
+  background: #F5F4F0;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+/* Undertone Section */
+.undertoneSection {
+  border: 1px solid #E7D8D2;
+  padding: 24px 28px;
+  background: var(--white);
+}
+
+.undertoneTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 16px;
+}
+
+.undertoneTabs {
+  display: flex;
+  gap: 8px;
+}
+
+.undertoneTab {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  border: 1px solid #E7D8D2;
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.3s;
+  color: var(--black);
+}
+
+.undertoneTab:hover {
+  border-color: #824F41;
+  color: #824F41;
+}
+
+.undertoneTabActive {
+  border-color: var(--black);
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Harmony Section */
+.harmonySection {
+  border: 1px solid #E7D8D2;
+  padding: 24px;
+  background: #FAF6F2;
+}
+
+.harmonyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.harmonyLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+}
+
+.harmonyStudio {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.harmonyTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.harmonyDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.harmonySubTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 12px;
+}
+
+.harmonyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.harmonyItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  padding: 12px 14px;
+  border: 1px solid #E7D8D2;
+}
+
+.harmonyDot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.harmonyName {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--black);
+  display: block;
+  margin-bottom: 1px;
+}
+
+.harmonyHex {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.naturalFiber {
+  display: flex;
+  gap: 10px;
+  background: var(--white);
+  padding: 14px;
+  border: 1px solid #E7D8D2;
+}
+
+.nfIcon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nfTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.nfDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--gray);
+}
+
+/* Protocol Section */
+.protocolSection {
+  border: 1px solid #E7D8D2;
+  padding: 24px;
+  background: var(--white);
+}
+
+.protocolHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.protocolLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+}
+
+.protocolTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+
+.protocolSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.protocolStep {
+  display: flex;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid #E7D8D2;
+}
+
+.protocolStep:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.protocolStep:first-child {
+  padding-top: 0;
+}
+
+.stepNum {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 16px;
+  color: #824F41;
+  font-style: italic;
+  flex-shrink: 0;
+  width: 28px;
+}
+
+.stepTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.stepDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  line-height: 1.7;
+  color: var(--gray);
+}
+
+.protocolGuarantee {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFF0ED;
+  padding: 12px 14px;
+}
+
+.guaranteeIcon {
+  color: #824F41;
+  font-size: 12px;
+}
+
+.protocolGuarantee span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--black);
+}
+
+/* Quote Section */
+.quoteSection {
+  padding: 80px 0;
+  background: #FFF8F6E5;
+}
+
+.quoteContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.quoteImage {
+  overflow: hidden;
+}
+
+.quoteImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.quoteLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #824F41;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.quoteText {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+
+.quoteDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--gray);
+  margin-bottom: 28px;
+}
+
+.quoteMeta {
+  display: flex;
+  gap: 40px;
+}
+
+.metaName {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--black);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.metaRole {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+/* Form Section */
+.formSection {
+  padding: 80px 0;
+  background: #FFF8F6;
+}
+
+.formContent {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 48px;
+  text-align: center;
+}
+
+.formCard {
+  background: var(--white);
+  border: 1px solid #E7D8D2;
+  border-radius: 16px;
+  padding: 48px 56px;
+}
+
+.formLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  display: block;
+  margin-bottom: 12px;
+}
+
+.formTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 14px;
+}
+
+.formDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--gray);
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  text-align: left;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formFieldLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+.formInput {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  padding: 14px 16px;
+  border: 1px solid #E7D8D2;
+  background: #FFF0ED;
+  color: var(--black);
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.formInput::placeholder {
+  color: #bbb;
+}
+
+.formInput:focus {
+  border-color: #824F41;
+}
+
+.formMeta {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 14px 0;
+  border-top: 1px solid #E7D8D2;
+  border-bottom: 1px solid #E7D8D2;
+  margin-bottom: 28px;
+}
+
+.formMeta span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.formButtons {
+  display: flex;
+  gap: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.btnSubmit {
+  flex: 1;
+  padding: 18px 24px;
+  background: #824F41;
+  color: var(--white);
+  border: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.btnSubmit:hover {
+  background: #6d3f34;
+}
+
+.btnWhatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 28px;
+  background: #FFF0ED;
+  color: var(--black);
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  white-space: nowrap;
+  border: 1px solid #E7D8D2;
+  border-left: none;
+}
+
+.btnWhatsapp:hover {
+  background: #F5DAD2;
+}
+
+@media (max-width: 1024px) {
+  .heroContent,
+  .mainContent,
+  .quoteContent {
+    grid-template-columns: 1fr;
+  }
+
+  .textileGrid,
+  .harmonyGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .formButtons {
+    flex-direction: column;
+  }
+
+  .curationsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

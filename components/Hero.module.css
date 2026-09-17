@@ -1,0 +1,274 @@
+.hero {
+  padding: 80px 0 70px;
+  background: #FAF6F2;
+}
+
+.heroContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px 0 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: #6b6b6b;
+  margin-bottom: 35px;
+}
+
+.badgeDot {
+  width: 10px;
+  height: 10px;
+  background: #8b6b52;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.heroTitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 1.05;
+  color: #1a1a1a;
+  margin-bottom: 0;
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: #824F41;
+  display: block;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -1.8px;
+}
+
+.titleLine {
+  width: 55px;
+  height: 1.5px;
+  background: #8b6b52;
+  margin: 28px 0;
+}
+
+.heroSubtitle {
+  font-size: 15px;
+  color: #6b6b6b;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  max-width: 440px;
+  font-weight: 400;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 55px;
+}
+
+.btnPrimary {
+  background: #824F41;
+  color: #fff;
+  padding: 17px 34px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btnPrimary:hover {
+  background: #6b5240;
+  transform: translateY(-1px);
+}
+
+.btnSecondary {
+  background: transparent;
+  color: #1a1a1a;
+  padding: 17px 34px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  border: 1px solid #1a1a1a;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btnSecondary:hover {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.heroInfo {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.infoLabel {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  color: #999;
+}
+
+.infoValue {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 17px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+/* ===== IMAGE CARD - Exact Figma Match ===== */
+.heroRight {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -40px;
+}
+
+.heroImageCard {
+  width: 456px;
+  background: #ffffff;
+  border: 1px solid #E7D8D2;
+  position: relative;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  font-size: 8.5px;
+  letter-spacing: 2px;
+  color: #8b6b52;
+  border-bottom: 1px solid #E7D8D2;
+  background: #fff;
+}
+
+.cardImageWrap {
+  padding: 14px 14px 0 14px;
+  background: #fff;
+}
+
+.cardImage {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  overflow: hidden;
+}
+
+.cardImage img {
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.heroImageCard:hover .cardImage img {
+  transform: scale(1.03);
+}
+
+.cardOverlay {
+  position: absolute;
+  bottom: 48px;
+  left: 14px;
+  right: 14px;
+  background: rgba(45, 36, 32, 0.88);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8.5px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  font-size: 8.5px;
+  letter-spacing: 2px;
+  color: #8b6b52;
+  border-top: 1px solid #E7D8D2;
+  background: #fff;
+}
+
+@media (max-width: 1100px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .heroTitle {
+    font-size: 60px;
+  }
+
+  .heroRight {
+    justify-content: center;
+  }
+
+  .heroImageCard {
+    width: 100%;
+    max-width: 456px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 0;
+  }
+
+  .heroContent {
+    padding: 0 24px;
+  }
+
+  .heroTitle {
+    font-size: 46px;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .heroInfo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .heroRight {
+    justify-content: center;
+  }
+
+  .heroImageCard {
+    width: 100%;
+    max-width: 456px;
+  }
+
+  .cardImage {
+    height: 400px;
+  }
+}

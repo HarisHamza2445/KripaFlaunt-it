@@ -1,0 +1,159 @@
+.cta {
+  padding: 100px 0;
+  background: #FAF6F2;
+}
+
+.ctaContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.ctaCard {
+  background: var(--white);
+  padding: 80px 60px;
+  text-align: center;
+  border: 1px solid #E7D8D2;
+}
+
+.ctaBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray);
+  margin-bottom: 28px;
+}
+
+.badgeDot {
+  width: 8px;
+  height: 8px;
+  background: #824F41;
+  display: inline-block;
+}
+
+.separator {
+  color: #ccc;
+}
+
+.ctaTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.ctaTitle em {
+  font-style: italic;
+  color: #824F41;
+}
+
+.titleLine {
+  width: 55px;
+  height: 1.5px;
+  background: #824F41;
+  margin: 18px auto 22px;
+}
+
+.ctaDesc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 35px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.btnBook {
+  display: inline-block;
+  background: var(--dark);
+  color: var(--white);
+  padding: 17px 38px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnBook:hover {
+  background: var(--brown-dark);
+  transform: translateY(-1px);
+}
+
+.btnCall {
+  display: inline-block;
+  background: transparent;
+  color: var(--black);
+  padding: 17px 38px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 1px solid var(--black);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnCall:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.ctaFeatures {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.ctaFeatures span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--gray-light);
+}
+
+@media (max-width: 768px) {
+  .cta {
+    padding: 60px 0;
+  }
+
+  .ctaContent {
+    padding: 0 24px;
+  }
+
+  .ctaCard {
+    padding: 40px 24px;
+  }
+
+  .ctaTitle {
+    font-size: 38px;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ctaFeatures {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
