@@ -44,7 +44,7 @@ export default function GalleryPage() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const index = parseInt(entry.target.getAttribute('data-index') || '0');
-            setVisibleImages((prev) => [...new Set([...prev, index])]);
+            setVisibleImages((prev) => Array.from(new Set([...prev, index])));
           }
         });
       },
