@@ -19,7 +19,6 @@ export default function AboutPage() {
               <div className={styles.heroImageCard}>
                 <img src="/img9.png" alt="Atelier Pune" loading="lazy" />
                 <div className={styles.heroImageOverlay}>
-                  <span className={styles.overlayLabel}>PUNE STUDIO</span>
                   <span className={styles.overlayText}><em>Silken drapes, hand zardozi &amp; micro-pleated tulle</em></span>
                 </div>
               </div>
@@ -33,7 +32,6 @@ export default function AboutPage() {
                   </p>
                   <div className={styles.bespokeTags}>
                     <span>HANDCRAFTED IN INDIA</span>
-                    <span>1-OF-1 COMMISSION</span>
                   </div>
                 </div>
                 <div className={styles.locationCard}>
