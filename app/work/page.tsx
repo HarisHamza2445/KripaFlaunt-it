@@ -38,8 +38,8 @@ const allWorkItems = [
     image: '/img16.png',
     tag: 'BESPOKE EVENING',
     categories: ['BESPOKE'],
-    title: 'Royal Sapphire Gown',
-    desc: 'Hand-embroidered zardozi flourishes across deep royal jewel tones.',
+    title: 'Midnight Velvet Gown',
+    desc: 'A sleek black body-fitted velvet gown with subtle shimmer detailing.',
   },
   {
     image: '/img17.png',

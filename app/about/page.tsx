@@ -9,12 +9,7 @@ export default function AboutPage() {
       <main>
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <div className={styles.heroTopBar}>
-              <span><span className={styles.dot} /> HAUTE COUTURE ATELIER &bull; EST. PUNE</span>
-              <span>VOL. IV &middot; BESPOKE ARCHITECTURAL CRAFT</span>
-              <span>18.5204&deg; N, 73.8567&deg; E</span>
-            </div>
-            <div className={styles.heroBadge}>THE ATELIER STORY</div>
+            <div className={styles.heroBadge}>THE DESIGN STUDIO STORY</div>
             <h1 className={styles.heroTitle}>Crafted With <em>You</em> in Mind.</h1>
             <p className={styles.heroDesc}>
               We create thoughtfully designed pieces that bring together timeless craftsmanship,<br />
@@ -68,7 +63,7 @@ export default function AboutPage() {
                 Founded by Kripa Harjwani, FLAUNT IT redefines Indian couture through architectural drapery, delicate hand-zardozi embroideries, and personalized undertone harmonization. Here, garments are not merely sewn; they are sculpted around the spirit of the woman wearing them.
               </p>
               <div className={styles.studioBadge}>
-                <span className={styles.dot} /> PIMPLE SAUDAGAR, PUNE &bull; ATELIER &amp; BESPOKE STUDIO
+                <span className={styles.dot} /> PIMPLE SAUDAGAR, PUNE &bull; DESIGN STUDIO &amp; BESPOKE STUDIO
               </div>
               <div className={styles.appointment}>
                 <span>&#128337;</span> BY APPOINTMENT ONLY
@@ -79,7 +74,7 @@ export default function AboutPage() {
                 <img src="/img10.png" alt="The Atelier Rhythm" loading="lazy" />
                 <div className={styles.storyImageOverlay}>
                   <span className={styles.rhythmIcon}>&#10023;</span>
-                  <span className={styles.rhythmBadge}>THE ATELIER RHYTHM</span>
+                  <span className={styles.rhythmBadge}>THE DESIGN STUDIO RHYTHM</span>
                   <span className={styles.rhythmText}>&ldquo;Honoring the rhythm of needle, silken thread, and contour.&rdquo;</span>
                 </div>
               </div>
@@ -201,8 +196,8 @@ export default function AboutPage() {
               </div>
               <div className={styles.founderNameCard}>
                 <h3 className={styles.founderName}>Kripa Harjwani</h3>
-                <span className={styles.founderTitle}>FOUNDER &amp; CREATIVE DIRECTOR</span>
-                <span className={styles.founderLocation}>Flaunt It Atelier &bull; Pune, India</span>
+                <span className={styles.founderTitle}>#FASHIONSTYLIST – Celebrity/Bridals/Runways</span>
+                <span className={styles.founderLocation}>CREATIVE SOUL</span>
               </div>
             </div>
             <div className={styles.founderRight}>
@@ -227,14 +222,7 @@ export default function AboutPage() {
                   <span className={styles.credentialIcon}>&#9998;</span>
                   <div>
                     <h4>LONDON SCHOOL OF FASHION DESIGNING</h4>
-                    <p>Professional Styling Course — FAD International affiliated to London College of Style.</p>
-                  </div>
-                </div>
-                <div className={styles.credentialCard}>
-                  <span className={styles.credentialIcon}>&#9830;</span>
-                  <div>
-                    <h4>18+ YEARS OF BESPOKE CRAFT</h4>
-                    <p>Established KRIPA FLAUNT IT in 2007 — over a decade of designing couture and bespoke ensembles.</p>
+                    <p>Professional Styling Course</p>
                   </div>
                 </div>
               </div>
@@ -257,14 +245,14 @@ export default function AboutPage() {
                 <div className={styles.quoteFooter}>
                   <span className={styles.quoteName}>Kripa Harjwani</span>
                   <span className={styles.quoteDot}>&bull;</span>
-                  <span className={styles.quoteLabel}>CREATIVE DIRECTOR</span>
-                  <span className={styles.quoteLocation}>PUNE ATELIER</span>
+                  <span className={styles.quoteLabel}>#FASHIONSTYLIST – Celebrity/Bridals/Runways</span>
+                  <span className={styles.quoteLocation}>PUNE DESIGN STUDIO</span>
                 </div>
               </div>
               <div className={styles.stats}>
                 <div className={styles.stat}>
                   <span className={styles.statNum}>18+</span>
-                  <span className={styles.statLabel}>YEARS OF ATELIER CRAFT</span>
+                  <span className={styles.statLabel}>YEARS OF DESIGN CRAFT</span>
                 </div>
                 <div className={styles.stat}>
                   <span className={styles.statNum}>1-on-1</span>

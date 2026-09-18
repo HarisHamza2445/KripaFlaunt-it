@@ -30,7 +30,7 @@ export default function Hero() {
           </div>
           <div className={styles.heroInfo}>
             <div className={styles.infoItem}>
-              <span className={styles.infoLabel}>FOUNDER & DESIGNER</span>
+              <span className={styles.infoLabel}>#FASHIONSTYLIST – Celebrity/Bridals/Runways</span>
               <span className={styles.infoValue}>Kripa Harjwani</span>
             </div>
             <div className={styles.infoItem}>
@@ -46,10 +46,6 @@ export default function Hero() {
 
         <div className={styles.heroRight}>
           <div className={styles.heroImageCard}>
-            <div className={styles.cardHeader}>
-              <span>CUSTOM COUTURE COLLECTION</span>
-              <span>KRIPA HARJWANI</span>
-            </div>
             <div className={styles.cardImageWrap}>
               <div className={styles.cardImage}>
                 <Image

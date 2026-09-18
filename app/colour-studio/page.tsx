@@ -197,7 +197,7 @@ export default function ColourStudioPage() {
 
                 <div className={styles.hueSection}>
                   <div className={styles.hueHeader}>
-                    <span className={styles.hueLabel}>ATELIER HUE SLIDER</span>
+                    <span className={styles.hueLabel}>DESIGN STUDIO HUE SLIDER</span>
                     <span className={styles.hueValue}>PANTONE 18-1420 TCX • ROSEWOOD DUST</span>
                   </div>
                   <div className={styles.hueSlider}>

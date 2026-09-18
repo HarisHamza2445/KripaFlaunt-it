@@ -21,8 +21,8 @@ export default function About() {
             </div>
             <div className={styles.founderInfo}>
               <h3 className={styles.founderName}>Kripa Harjwani</h3>
-              <p className={styles.founderTitle}>FOUNDER & CREATIVE DIRECTOR</p>
-              <p className={styles.founderLocation}>KRIPA, FLAUNT IT. &middot; PIMPLE SAUDAGAR, PUNE</p>
+              <p className={styles.founderTitle}>#FASHIONSTYLIST – Celebrity/Bridals/Runways</p>
+              <p className={styles.founderLocation}>CREATIVE SOUL</p>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ export default function Header() {
     <>
       <div className={styles.topBar}>
         <div className={styles.topBarContent}>
-          <span className={styles.brandName}>KRIPA HARJWANI ATELIER</span>
+          <span className={styles.brandName}>KRIPA HARJWANI DESIGN STUDIO</span>
           <span className={styles.separator}>//</span>
           <span className={styles.tagline}>CUSTOM STITCHING & BESPOKE COUTURE</span>
           <span className={styles.location}>PIMPLE SAUDAGAR, PUNE</span>
