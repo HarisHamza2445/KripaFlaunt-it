@@ -34,9 +34,9 @@ export default function Header() {
             <span className={styles.navSep}>|</span>
             <a href="/work" className={styles.navLink} onClick={() => setMenuOpen(false)}>WORK</a>
             <span className={styles.navSep}>|</span>
-            <a href="/gallery" className={styles.navLink} onClick={() => setMenuOpen(false)}>GALLERY</a>
-            <span className={styles.navSep}>|</span>
             <a href="/designer-gallery" className={styles.navLink} onClick={() => setMenuOpen(false)}>THE DESIGNER</a>
+            <span className={styles.navSep}>|</span>
+            <a href="/gallery" className={styles.navLink} onClick={() => setMenuOpen(false)}>GALLERY</a>
           </nav>
 
           <div className={styles.headerRight}>
