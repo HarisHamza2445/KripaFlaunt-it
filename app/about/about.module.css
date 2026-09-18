@@ -115,20 +115,20 @@
   gap: 16px;
 }
 
-.bespokeCard {
+.customCard {
   border: 1px solid #E7D8D2;
   padding: 36px 32px;
   background: #FFF0ED;
 }
 
-.bespokeLine {
+.customLine {
   width: 30px;
   height: 2px;
   background: var(--gray);
   margin-bottom: 12px;
 }
 
-.bespokeBadge {
+.customBadge {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 9px;
   letter-spacing: 2.5px;
@@ -137,14 +137,14 @@
   margin-bottom: 14px;
 }
 
-.bespokeTitle {
+.customTitle {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 14px;
 }
 
-.bespokeDesc {
+.customDesc {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 13.5px;
   line-height: 1.7;
@@ -152,14 +152,14 @@
   margin-bottom: 20px;
 }
 
-.bespokeTags {
+.customTags {
   display: flex;
   gap: 40px;
   padding-top: 16px;
   border-top: 1px solid #E7D8D2;
 }
 
-.bespokeTags span {
+.customTags span {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 9px;
   letter-spacing: 1.8px;
@@ -1000,11 +1000,11 @@
     margin-bottom: 30px;
   }
 
-  .bespokeCard {
+  .customCard {
     padding: 24px 20px;
   }
 
-  .bespokeTags {
+  .customTags {
     gap: 20px;
     flex-wrap: wrap;
   }

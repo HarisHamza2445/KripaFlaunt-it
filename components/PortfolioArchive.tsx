@@ -13,7 +13,7 @@ export default function PortfolioArchive() {
           <h2 className={styles.sectionTitle}>Designed to Be Remembered.</h2>
           <div className={styles.titleLine} />
           <p className={styles.portfolioDesc}>
-            Visual archive of bespoke commissions, curated palettes, and custom silhouettes.
+            Visual archive of custom commissions, curated palettes, and custom silhouettes.
           </p>
         </div>
 

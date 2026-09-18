@@ -7,8 +7,8 @@ import PageLoader from '@/components/PageLoader';
 export const metadata: Metadata = {
   title: 'Kripa Flaunt It | Bespoke Couture & Custom Stitching',
   description:
-    'Kripa Harjwani Atelier - Bespoke outfits crafted around your style, fit, and occasion. Custom Stitching & Bridal Couture in Pimple Saudagar, Pune.',
-  keywords: 'bespoke couture, custom stitching, bridal lehenga, wedding dress, Pune, Kripa Harjwani, Kripa Flaunt It',
+    'Kripa Harjwani Studio - Bespoke outfits crafted around your style, fit, and occasion. Custom Stitching & Bridal Couture in Pimple Saudagar, Pune.',
+  keywords: 'custom couture, custom stitching, bridal lehenga, wedding dress, Pune, Kripa Harjwani, Kripa Flaunt It',
   openGraph: {
     title: 'Kripa Flaunt It | Bespoke Couture & Custom Stitching',
     description: 'Bespoke outfits crafted around your style, fit, and occasion. Custom Stitching & Bridal Couture in Pimple Saudagar, Pune.',

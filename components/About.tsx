@@ -8,7 +8,7 @@ export default function About() {
         <div className={styles.aboutLeft}>
           <div className={styles.founderCard}>
             <div className={styles.cardLabel}>
-              <span>ATELIER DIRECTIVE // THE FOUNDER</span>
+              <span>STUDIO DIRECTIVE // THE FOUNDER</span>
             </div>
             <div className={styles.founderImage}>
               <Image
@@ -45,7 +45,7 @@ export default function About() {
             From bridal and festive looks to western and Indo-western outfits, every
             piece is developed with attention to silhouette, fabric, detailing and
             comfort. Whether you arrive with a family heirloom, an inspirational sketch,
-            or seek a complete couture ensemble from scratch, our atelier turns your
+            or seek a complete couture ensemble from scratch, our studio turns your
             vision into a garment you can flaunt with confidence.
           </p>
           <div className={styles.aboutCards}>
@@ -55,10 +55,10 @@ export default function About() {
             </div>
             <div className={styles.aboutCard}>
               <h4>LOCAL CRAFTSMANSHIP</h4>
-              <p>Dedicated master tailors & hand-embroidery karigars in Pune.</p>
+              <p>Dedicated master tailors & hand-embroidery artisans in Pune.</p>
             </div>
           </div>
-          <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnMeet}>MEET KRIPA</a>
+          <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnMeet}>MEET KRIPA</a>
         </div>
       </div>
     </section>
