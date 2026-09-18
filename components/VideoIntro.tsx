@@ -42,7 +42,7 @@ export default function VideoIntro() {
           </div>
           <div className={styles.landingOverlay} />
           <div className={styles.landingContent}>
-            <div className={styles.brandTop}>KRIPA HARJWANI STUDIO</div>
+            <div className={styles.brandTop}>KRIPA HARJWANI ATELIER</div>
             <h1 className={styles.heroTitle}>
               Elegance
               <em>Tailored to You.</em>

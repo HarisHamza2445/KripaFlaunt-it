@@ -10,11 +10,11 @@ export default function AboutPage() {
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <div className={styles.heroTopBar}>
-              <span><span className={styles.dot} /> HAUTE COUTURE STUDIO &bull; EST. PUNE</span>
-              <span>VOL. IV &middot; CUSTOM ARCHITECTURAL CRAFT</span>
+              <span><span className={styles.dot} /> HAUTE COUTURE ATELIER &bull; EST. PUNE</span>
+              <span>VOL. IV &middot; BESPOKE ARCHITECTURAL CRAFT</span>
               <span>18.5204&deg; N, 73.8567&deg; E</span>
             </div>
-            <div className={styles.heroBadge}>THE STUDIO STORY</div>
+            <div className={styles.heroBadge}>THE ATELIER STORY</div>
             <h1 className={styles.heroTitle}>Crafted With <em>You</em> in Mind.</h1>
             <p className={styles.heroDesc}>
               We create thoughtfully designed pieces that bring together timeless craftsmanship,<br />
@@ -22,21 +22,21 @@ export default function AboutPage() {
             </p>
             <div className={styles.heroGrid}>
               <div className={styles.heroImageCard}>
-                <img src="/img9.png" alt="Studio Pune" loading="lazy" />
+                <img src="/img9.png" alt="Atelier Pune" loading="lazy" />
                 <div className={styles.heroImageOverlay}>
-                  <span className={styles.overlayLabel}>STUDIO PUNE &bull; ARCHIVAL CRAFT</span>
-                  <span className={styles.overlayText}><em>Silken drapes, hand embroidery &amp; micro-pleated tulle</em></span>
+                  <span className={styles.overlayLabel}>ATELIER PUNE &bull; ARCHIVAL CRAFT</span>
+                  <span className={styles.overlayText}><em>Silken drapes, hand zardozi &amp; micro-pleated tulle</em></span>
                 </div>
               </div>
               <div className={styles.heroRight}>
-                <div className={styles.customCard}>
-                  <div className={styles.customLine} />
-                  <span className={styles.customBadge}>CUSTOM MARKERS</span>
-                  <h3 className={styles.customTitle}>A sanctuary for true individuality.</h3>
-                  <p className={styles.customDesc}>
+                <div className={styles.bespokeCard}>
+                  <div className={styles.bespokeLine} />
+                  <span className={styles.bespokeBadge}>BESPOKE MARKERS</span>
+                  <h3 className={styles.bespokeTitle}>A sanctuary for true individuality.</h3>
+                  <p className={styles.bespokeDesc}>
                     Every silhouette is meticulously draped and sculpted by hand in our Pune studio, marrying ancestral Indian embroidery with contemporary global elegance.
                   </p>
-                  <div className={styles.customTags}>
+                  <div className={styles.bespokeTags}>
                     <span>HANDCRAFTED IN INDIA</span>
                     <span>1-OF-1 COMMISSION</span>
                   </div>
@@ -65,10 +65,10 @@ export default function AboutPage() {
                 Our journey began with a simple idea &mdash; to create clothing that feels personal, beautiful, and made to last. We bring traditional craftsmanship into a modern design language, creating pieces made for meaningful occasions.
               </p>
               <p className={styles.storyDesc}>
-                Founded by Kripa Harjwani, FLAUNT IT redefines Indian couture through architectural drapery, delicate hand-embroidery embroideries, and personalized undertone harmonization. Here, garments are not merely sewn; they are sculpted around the spirit of the woman wearing them.
+                Founded by Kripa Harjwani, FLAUNT IT redefines Indian couture through architectural drapery, delicate hand-zardozi embroideries, and personalized undertone harmonization. Here, garments are not merely sewn; they are sculpted around the spirit of the woman wearing them.
               </p>
               <div className={styles.studioBadge}>
-                <span className={styles.dot} /> PIMPLE SAUDAGAR, PUNE &bull; STUDIO &amp; CUSTOM STUDIO
+                <span className={styles.dot} /> PIMPLE SAUDAGAR, PUNE &bull; ATELIER &amp; BESPOKE STUDIO
               </div>
               <div className={styles.appointment}>
                 <span>&#128337;</span> BY APPOINTMENT ONLY
@@ -76,10 +76,10 @@ export default function AboutPage() {
             </div>
             <div className={styles.storyRight}>
               <div className={styles.storyImageCard}>
-                <img src="/img10.png" alt="The Studio Rhythm" loading="lazy" />
+                <img src="/img10.png" alt="The Atelier Rhythm" loading="lazy" />
                 <div className={styles.storyImageOverlay}>
                   <span className={styles.rhythmIcon}>&#10023;</span>
-                  <span className={styles.rhythmBadge}>THE STUDIO RHYTHM</span>
+                  <span className={styles.rhythmBadge}>THE ATELIER RHYTHM</span>
                   <span className={styles.rhythmText}>&ldquo;Honoring the rhythm of needle, silken thread, and contour.&rdquo;</span>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 <h2 className={styles.philosophyTitle}>What We Believe</h2>
               </div>
               <p className={styles.philosophyDesc}>
-                The foundational pillars shaping every custom pattern, heirloom stitch, and client interaction in our studio.
+                The foundational pillars shaping every bespoke pattern, heirloom stitch, and client interaction in our studio.
               </p>
             </div>
             <div className={styles.philosophyGrid}>
@@ -120,7 +120,7 @@ export default function AboutPage() {
                   <span className={styles.philTag}>CRAFTED</span>
                 </div>
                 <h3 className={styles.philTitle}>Honest Mastery</h3>
-                <p className={styles.philDesc}>We value thoughtful details, skilled craftsmanship, and quality materials. We cherish time-honored techniques handed down through master artisans.</p>
+                <p className={styles.philDesc}>We value thoughtful details, skilled craftsmanship, and quality materials. We cherish time-honored techniques handed down through master karigars.</p>
                 <div className={styles.philFooter}>
                   <div className={styles.philLine} />
                   <span>ARCHIVAL KARIGARI</span>
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 <p className={styles.approachCardDesc}>Every piece is carefully finished to feel truly yours. Precise fitting sessions ensure the drape rests flawlessly on your frame.</p>
                 <div className={styles.approachCardFooter}>
                   <span className={styles.deliverLabel}>Deliverables:</span>
-                  <span>Bespoke Muslin Fitting &bull; Hand Finishing &bull; The Studio Reveal</span>
+                  <span>Bespoke Muslin Fitting &bull; Hand Finishing &bull; The Atelier Reveal</span>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@ export default function AboutPage() {
               <div className={styles.founderNameCard}>
                 <h3 className={styles.founderName}>Kripa Harjwani</h3>
                 <span className={styles.founderTitle}>FOUNDER &amp; CREATIVE DIRECTOR</span>
-                <span className={styles.founderLocation}>Flaunt It Studio &bull; Pune, India</span>
+                <span className={styles.founderLocation}>Flaunt It Atelier &bull; Pune, India</span>
               </div>
             </div>
             <div className={styles.founderRight}>
@@ -212,7 +212,7 @@ export default function AboutPage() {
               </div>
               <h2 className={styles.founderTitle2}>Meet the Creative Mind.</h2>
               <p className={styles.founderDesc}>
-                Behind every piece is a passion for design, craftsmanship, and creating something that feels uniquely yours. Kripa established the studio with a philosophy of quiet luxury: garments that command reverence not through loudness, but through peerless cut, pristine silk, and authentic hand-embellishment.
+                Behind every piece is a passion for design, craftsmanship, and creating something that feels uniquely yours. Kripa established the atelier with a philosophy of quiet luxury: garments that command reverence not through loudness, but through peerless cut, pristine silk, and authentic hand-embellishment.
               </p>
 
               <div className={styles.credentials}>
@@ -233,8 +233,8 @@ export default function AboutPage() {
                 <div className={styles.credentialCard}>
                   <span className={styles.credentialIcon}>&#9830;</span>
                   <div>
-                    <h4>18+ YEARS OF CUSTOM CRAFT</h4>
-                    <p>Established KRIPA FLAUNT IT in 2007 — over a decade of designing couture and custom ensembles.</p>
+                    <h4>18+ YEARS OF BESPOKE CRAFT</h4>
+                    <p>Established KRIPA FLAUNT IT in 2007 — over a decade of designing couture and bespoke ensembles.</p>
                   </div>
                 </div>
               </div>
@@ -246,8 +246,8 @@ export default function AboutPage() {
                   <li>Pune Fashion Week — Debut showcase of architectural couture</li>
                   <li>Celebrity Wardrobe — Designed for prominent figures in entertainment and fashion</li>
                   <li>Beauty Pageant Styling — Styled contestants for national and international pageants</li>
-                  <li>International Awards — Recognized for excellence in custom couture design in London</li>
-                  <li>18+ Years — Pioneering custom Indian couture with global sensibility</li>
+                  <li>International Awards — Recognized for excellence in bespoke couture design in London</li>
+                  <li>18+ Years — Pioneering bespoke Indian couture with global sensibility</li>
                 </ul>
               </div>
 
@@ -258,13 +258,13 @@ export default function AboutPage() {
                   <span className={styles.quoteName}>Kripa Harjwani</span>
                   <span className={styles.quoteDot}>&bull;</span>
                   <span className={styles.quoteLabel}>CREATIVE DIRECTOR</span>
-                  <span className={styles.quoteLocation}>PUNE STUDIO</span>
+                  <span className={styles.quoteLocation}>PUNE ATELIER</span>
                 </div>
               </div>
               <div className={styles.stats}>
                 <div className={styles.stat}>
                   <span className={styles.statNum}>18+</span>
-                  <span className={styles.statLabel}>YEARS OF STUDIO CRAFT</span>
+                  <span className={styles.statLabel}>YEARS OF ATELIER CRAFT</span>
                 </div>
                 <div className={styles.stat}>
                   <span className={styles.statNum}>1-on-1</span>
@@ -291,7 +291,7 @@ export default function AboutPage() {
                 Tell us what you have in mind and let&apos;s create an outfit that feels completely yours.
               </p>
               <div className={styles.ctaButtons}>
-                <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnBook}>BOOK A CONSULTATION &rarr;</a>
+                <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnBook}>BOOK A CONSULTATION &rarr;</a>
                 <a href="tel:+918975766683" className={styles.btnCall}>CALL THE STUDIO: +91 89757 66683</a>
               </div>
               <div className={styles.ctaFeatures}>

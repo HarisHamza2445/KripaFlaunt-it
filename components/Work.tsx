@@ -4,7 +4,7 @@ import styles from './Work.module.css';
 const workItems = [
   {
     image: '/imag2.png',
-    tag: 'CUSTOM BRIDAL',
+    tag: 'BESPOKE BRIDAL',
     title: 'Handcrafted Elegance',
     alt: 'Bridal Couture Work',
     large: true,

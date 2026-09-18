@@ -56,7 +56,7 @@ export default function CustomOrder() {
         </div>
 
         <div className={styles.ctaWrapper}>
-          <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnStart}>START YOUR CUSTOM ORDER</a>
+          <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnStart}>START YOUR CUSTOM ORDER</a>
         </div>
       </div>
     </section>

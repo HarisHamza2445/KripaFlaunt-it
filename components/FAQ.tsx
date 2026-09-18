@@ -17,7 +17,7 @@ const faqs = [
   {
     num: '3',
     question: 'Do you create bridal outfits?',
-    answer: 'Yes, bridal couture is one of our core specialities. From custom lehengas to complete bridal trousseau, we create custom bridal outfits with handcrafted embroidery and premium craftsmanship.',
+    answer: 'Yes, bridal couture is one of our core specialities. From custom lehengas to complete bridal trousseau, we create bespoke bridal outfits with handcrafted embroidery and premium craftsmanship.',
   },
   {
     num: '4',

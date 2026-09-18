@@ -194,7 +194,7 @@ export default function GalleryPage() {
           </div>
           <h1 className={styles.title}>Our <em>Collection.</em></h1>
           <p className={styles.desc}>
-            A curated glimpse into the artistry, fabric, and silhouettes that define the Flaunt It studio.
+            A curated glimpse into the artistry, fabric, and silhouettes that define the Flaunt It atelier.
           </p>
         </div>
         <div className={styles.masonryGrid}>

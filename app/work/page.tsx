@@ -36,21 +36,21 @@ const allWorkItems = [
   },
   {
     image: '/img16.png',
-    tag: 'CUSTOM EVENING',
-    categories: ['CUSTOM'],
+    tag: 'BESPOKE EVENING',
+    categories: ['BESPOKE'],
     title: 'Royal Sapphire Gown',
-    desc: 'Hand-embroidered embroidery flourishes across deep royal jewel tones.',
+    desc: 'Hand-embroidered zardozi flourishes across deep royal jewel tones.',
   },
   {
     image: '/img17.png',
-    tag: 'CUSTOM FAMILY',
-    categories: ['CUSTOM'],
+    tag: 'BESPOKE FAMILY',
+    categories: ['BESPOKE'],
     title: 'Coordinated Heirloom Pair',
     desc: 'Bespoke coordinated mother and son celebratory ensemble with fine dabka work.',
   },
 ];
 
-const filters = ['ALL', 'BRIDAL', 'WEDDING', 'OCCASION', 'CUSTOM'];
+const filters = ['ALL', 'BRIDAL', 'WEDDING', 'OCCASION', 'BESPOKE'];
 
 export default function WorkPage() {
   const [activeFilter, setActiveFilter] = useState('ALL');
@@ -72,7 +72,7 @@ export default function WorkPage() {
             <span className={styles.heroBadge}>OUR WORK</span>
             <h1 className={styles.heroTitle}>Made for <em>Meaningful Moments.</em></h1>
             <p className={styles.heroDesc}>
-              A curated selection of our custom creations, crafted with thoughtful details,<br />
+              A curated selection of our bespoke creations, crafted with thoughtful details,<br />
               rich fabrics, and a deeply personal sense of style.
             </p>
           </div>
@@ -194,8 +194,8 @@ export default function WorkPage() {
                 Tell us what you have in mind and let&apos;s create an outfit that feels completely yours.
               </p>
               <div className={styles.ctaButtons}>
-                <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnBook}>BOOK A CONSULTATION &rarr;</a>
-                <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27d%20love%20to%20call%20and%20discuss%20a%20custom%20consultation." target="_blank" rel="noopener noreferrer" className={styles.btnCall}>CALL THE STUDIO: +91 89757 66683</a>
+                <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnBook}>BOOK A CONSULTATION &rarr;</a>
+                <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27d%20love%20to%20call%20and%20discuss%20a%20bespoke%20consultation." target="_blank" rel="noopener noreferrer" className={styles.btnCall}>CALL THE STUDIO: +91 89757 66683</a>
               </div>
               <div className={styles.ctaFeatures}>
                 <span>&middot; INDIVIDUAL BODY ARCHITECTURE</span>

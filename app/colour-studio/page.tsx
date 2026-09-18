@@ -86,7 +86,7 @@ const steps = [
   { num: '01', title: 'DIGITAL COORDINATES & SWATCH RECEIPT', desc: 'Provide pantone codes, digital reference, or courier a 2×2 inch fabric snippet to our Pune Koregaon Park studio.' },
   { num: '02', title: '3 PHYSICAL STRIKE-OFF SWATCHES', desc: 'We formulate three graduated saturation depths on your chosen silk base and courier them for your fitting approval.' },
   { num: '03', title: 'PRECISION VAT BATH IN PUNE', desc: 'Crafted using temperature-controlled vat immersion ensuring edge-to-edge uniformity across full yardages.' },
-  { num: '04', title: 'HARMONISED EMBROIDERY & TAILORING', desc: 'Our artisans dye the raw resham silk and embroidery threads to harmonise seamlessly with the dyed base fabric.' },
+  { num: '04', title: 'HARMONISED EMBROIDERY & TAILORING', desc: 'Our karigars dye the raw resham silk and zardozi threads to harmonise seamlessly with the dyed base fabric.' },
 ];
 
 export default function ColourStudioPage() {
@@ -135,7 +135,7 @@ export default function ColourStudioPage() {
 
               <div className={styles.heroBadge}>
                 <span className={styles.badgeDot} />
-                <span>STUDIO COLOR ARCHIVE &amp; LAB // CUSTOM SHADE CREATION</span>
+                <span>ATELIER COLOR ARCHIVE &amp; LAB // BESPOKE SHADE CREATION</span>
               </div>
 
               <h1 className={styles.heroTitle}>
@@ -145,7 +145,7 @@ export default function ColourStudioPage() {
               </h1>
 
               <p className={styles.heroDesc}>
-                Cannot find your exact occasion shade? At our Pune studio, every natural raw silk, organza,
+                Cannot find your exact occasion shade? At our Pune atelier, every natural raw silk, organza,
                 georgette, and heritage velvet is formulated to precision pantone references, family
                 heirloom fabrics, or gemstone swatches.
               </p>
@@ -197,7 +197,7 @@ export default function ColourStudioPage() {
 
                 <div className={styles.hueSection}>
                   <div className={styles.hueHeader}>
-                    <span className={styles.hueLabel}>STUDIO HUE SLIDER</span>
+                    <span className={styles.hueLabel}>ATELIER HUE SLIDER</span>
                     <span className={styles.hueValue}>PANTONE 18-1420 TCX • ROSEWOOD DUST</span>
                   </div>
                   <div className={styles.hueSlider}>
@@ -218,10 +218,10 @@ export default function ColourStudioPage() {
                   </div>
                 </div>
 
-                {/* Signature Studio Curations */}
+                {/* Signature Atelier Curations */}
                 <div className={styles.curationsSection}>
                   <div className={styles.curationsHeader}>
-                    <span className={styles.curationsLabel}>SIGNATURE STUDIO CURATIONS</span>
+                    <span className={styles.curationsLabel}>SIGNATURE ATELIER CURATIONS</span>
                     <span className={styles.curationsHint}>Click to preview</span>
                   </div>
                   <div className={styles.curationsGrid}>
@@ -283,7 +283,7 @@ export default function ColourStudioPage() {
               {/* Palette Harmonisation */}
               <div className={styles.harmonySection}>
                 <div className={styles.harmonyHeader}>
-                  <span className={styles.harmonyLabel}>STUDIO PALETTE HARMONISATION</span>
+                  <span className={styles.harmonyLabel}>ATELIER PALETTE HARMONISATION</span>
                   <span className={styles.harmonyStudio}>Pune Studio</span>
                 </div>
                 <h3 className={styles.harmonyTitle}>Occasion Palette Preview</h3>
@@ -321,7 +321,7 @@ export default function ColourStudioPage() {
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#824F41" strokeWidth="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
                   </div>
                 </div>
-                <h3 className={styles.protocolTitle}>Studio Dye Process Protocol</h3>
+                <h3 className={styles.protocolTitle}>Atelier Dye Process Protocol</h3>
                 <div className={styles.protocolSteps}>
                   {steps.map((s, i) => (
                     <div key={i} className={styles.protocolStep}>
@@ -349,13 +349,13 @@ export default function ColourStudioPage() {
               <img src="/founder.jpeg" alt="Kripa Harjwani" loading="lazy" />
             </div>
             <div className={styles.quoteRight}>
-              <span className={styles.quoteLabel}>DIRECT FROM THE CREATIVE DIRECTOR</span>
+              <span className={styles.quoteLabel}>DIRECT FROM THE MAÎTRE COUTURIÈRE</span>
               <h2 className={styles.quoteText}>
                 &ldquo;Color is emotional geometry. A bride should never compromise on the shade that illuminates her complexion.&rdquo;
               </h2>
               <p className={styles.quoteDesc}>
                 Whether replicating the faded crimson of your mother&rsquo;s wedding lehenga or matching
-                your groom&rsquo;s custom raw silk safa, our Pune dye vat guarantees zero chromatic
+                your groom&rsquo;s bespoke raw silk safa, our Pune dye vat guarantees zero chromatic
                 deviation. Every strike-off is personally checked by Kripa under both day and tungsten spectrums.
               </p>
               <div className={styles.quoteMeta}>
@@ -376,7 +376,7 @@ export default function ColourStudioPage() {
         <section className={styles.formSection}>
           <div className={styles.formContent}>
             <div className={styles.formCard}>
-              <span className={styles.formLabel}>STUDIO RESERVATION &amp; DISPATCH</span>
+              <span className={styles.formLabel}>ATELIER RESERVATION &amp; DISPATCH</span>
               <h2 className={styles.formTitle}>Request Your Physical Swatch Kit</h2>
               <p className={styles.formDesc}>
                 Submit your shade specifications above. We will formulate 3 graduated test swatches on your

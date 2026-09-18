@@ -79,7 +79,7 @@ export default function Collections() {
                 <p>{item.desc}</p>
                 <div className={styles.collectionActions}>
                   <span className={styles.customOrder}>CUSTOM ORDER</span>
-                  <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.inquire}>INQUIRE &rarr;</a>
+                  <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.inquire}>INQUIRE &rarr;</a>
                 </div>
               </div>
             </div>

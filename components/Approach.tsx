@@ -46,12 +46,12 @@ export default function Approach() {
             <div className={styles.imageCard}>
               <div className={styles.imageLabel}>
                 <span className={styles.labelDot} />
-                <span>STUDIO PROTOCOL // HAND-TAILORED CUTS</span>
+                <span>ATELIER PROTOCOL // HAND-TAILORED CUTS</span>
               </div>
               <div className={styles.approachImage}>
                 <img
                   src="/img2.png"
-                  alt="Hand-Tailored Cuts - Studio Protocol"
+                  alt="Hand-Tailored Cuts - Atelier Protocol"
                   loading="lazy"
                 />
               </div>

@@ -11,9 +11,9 @@ export default function Header() {
     <>
       <div className={styles.topBar}>
         <div className={styles.topBarContent}>
-          <span className={styles.brandName}>KRIPA HARJWANI STUDIO</span>
+          <span className={styles.brandName}>KRIPA HARJWANI ATELIER</span>
           <span className={styles.separator}>//</span>
-          <span className={styles.tagline}>CUSTOM STITCHING & CUSTOM COUTURE</span>
+          <span className={styles.tagline}>CUSTOM STITCHING & BESPOKE COUTURE</span>
           <span className={styles.location}>PIMPLE SAUDAGAR, PUNE</span>
           <span className={styles.appointment}>[ CONSULTATIONS BY APPOINTMENT ]</span>
         </div>
@@ -40,7 +40,7 @@ export default function Header() {
           </nav>
 
           <div className={styles.headerRight}>
-            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnContact}>CONTACT</a>
+            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnContact}>CONTACT</a>
             <div className={styles.phoneSep} />
             <a href="tel:+918975766683" className={styles.phoneIcon}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">

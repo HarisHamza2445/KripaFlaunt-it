@@ -10,7 +10,7 @@ export default function Hero() {
         <div className={styles.heroLeft}>
           <div className={styles.heroBadge}>
             <span className={styles.badgeDot} />
-            <span>CUSTOM DESIGN &middot; CUSTOM FIT &middot; PERSONAL STYLE</span>
+            <span>BESPOKE DESIGN &middot; CUSTOM FIT &middot; PERSONAL STYLE</span>
           </div>
           <h1 className={styles.heroTitle}>
             Elegance
@@ -24,7 +24,7 @@ export default function Hero() {
             <a href="#collections" className={styles.btnPrimary}>
               EXPLORE COLLECTIONS <span>&rarr;</span>
             </a>
-            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnSecondary}>
+            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnSecondary}>
               BOOK A CONSULTATION
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function Hero() {
         <div className={styles.heroRight}>
           <div className={styles.heroImageCard}>
             <div className={styles.cardHeader}>
-              <span>FIGURE SPEC: 01 // CUSTOM COUTURE ARCHIVE</span>
+              <span>FIGURE SPEC: 01 // BESPOKE COUTURE ARCHIVE</span>
               <span>KRIPA HARJWANI</span>
             </div>
             <div className={styles.cardImageWrap}>

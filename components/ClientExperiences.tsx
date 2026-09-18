@@ -3,21 +3,21 @@ import styles from './ClientExperiences.module.css';
 const testimonials = [
   {
     stars: 5,
-    quote: '"It gives a mesmerizing feeling when you enter the boutique. Every piece is designed with details and equally good staff. Owner Kripa attended me and mom personally, suggesting what suits my personality. I ended up buying 3 dresses and almost spent 2 hours there. Great going!"',
-    name: 'RADHIKA VJ',
-    location: 'Boutique Client, Pune',
-  },
-  {
-    stars: 5,
-    quote: '"I am a huge fan of Kripa ma\'ams work. I bought a kurti which perfectly suited the occasion and my budget too. I always recommend her to my friends."',
-    name: 'PRATIKSHA YADAV',
+    quote: '"Kripa understood exactly what I needed for my sister\'s sangeet. The fit was so comfortable that I could dance the whole night without worrying about anything. Best designer experience in Pune!"',
+    name: 'POOJA DESHMUKH',
     location: 'Client, Pune',
   },
   {
     stars: 5,
-    quote: '"Beautiful collection and bought 4 dresses with good discount. Kripa ma\'am attended us personally and made sure all fittings were perfect."',
-    name: 'ASHUTOSH PATIL',
-    location: 'Client, Pune',
+    quote: '"My bridal lehenga was crafted to absolute perfection. Kripa took care of the minute details, embroidery placement, and dupatta drape. I felt like royalty on my wedding day."',
+    name: 'SIMRAN JAGTIANI',
+    location: 'Bridal Client, Mumbai',
+  },
+  {
+    stars: 5,
+    quote: '"I brought two of my mother\'s vintage silk sarees to Kripa for upcycling. She transformed one into a gorgeous lehenga and the other into a smart fusion crop jacket set. Exceptional craftsmanship!"',
+    name: 'ANANYA KULKARNI',
+    location: 'Custom Stitching Client, Pune',
   },
 ];
 

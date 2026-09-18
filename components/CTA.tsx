@@ -20,8 +20,8 @@ export default function CTA() {
             yours.
           </p>
           <div className={styles.ctaButtons}>
-            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20custom%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnBook}>BOOK A CONSULTATION &rarr;</a>
-            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27d%20love%20to%20call%20and%20discuss%20a%20custom%20consultation." target="_blank" rel="noopener noreferrer" className={styles.btnCall}>CALL THE STUDIO: +91 89757 66683</a>
+            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27m%20interested%20in%20booking%20a%20bespoke%20consultation.%20I%27d%20love%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer" className={styles.btnBook}>BOOK A CONSULTATION &rarr;</a>
+            <a href="https://wa.me/918975766683?text=Hello%20Kripa%20Flaunt%20It!%20I%27d%20love%20to%20call%20and%20discuss%20a%20bespoke%20consultation." target="_blank" rel="noopener noreferrer" className={styles.btnCall}>CALL THE STUDIO: +91 89757 66683</a>
           </div>
           <div className={styles.ctaFeatures}>
             <span>&middot; INDIVIDUAL BODY ARCHITECTURE</span>
