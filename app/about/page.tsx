@@ -214,6 +214,43 @@ export default function AboutPage() {
               <p className={styles.founderDesc}>
                 Behind every piece is a passion for design, craftsmanship, and creating something that feels uniquely yours. Kripa established the atelier with a philosophy of quiet luxury: garments that command reverence not through loudness, but through peerless cut, pristine silk, and authentic hand-embellishment.
               </p>
+
+              <div className={styles.credentials}>
+                <div className={styles.credentialCard}>
+                  <span className={styles.credentialIcon}>&#9733;</span>
+                  <div>
+                    <h4>CELEBRITY STYLIST</h4>
+                    <p>Styled celebrities, models, and beauty pageant contestants across India and internationally.</p>
+                  </div>
+                </div>
+                <div className={styles.credentialCard}>
+                  <span className={styles.credentialIcon}>&#9998;</span>
+                  <div>
+                    <h4>LONDON SCHOOL OF FASHION DESIGNING</h4>
+                    <p>Professional Styling Course — FAD International affiliated to London College of Style.</p>
+                  </div>
+                </div>
+                <div className={styles.credentialCard}>
+                  <span className={styles.credentialIcon}>&#9830;</span>
+                  <div>
+                    <h4>18+ YEARS OF BESPOKE CRAFT</h4>
+                    <p>Established KRIPA FLAUNT IT in 2007 — over a decade of designing couture and bespoke ensembles.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={styles.achievements}>
+                <h3 className={styles.achievementsTitle}>CAREER HIGHLIGHTS</h3>
+                <ul className={styles.achievementsList}>
+                  <li>London Fashion Week — Showcased collections on international runways</li>
+                  <li>Pune Fashion Week — Debut showcase of architectural couture</li>
+                  <li>Celebrity Wardrobe — Designed for prominent figures in entertainment and fashion</li>
+                  <li>Beauty Pageant Styling — Styled contestants for national and international pageants</li>
+                  <li>International Awards — Recognized for excellence in bespoke couture design in London</li>
+                  <li>18+ Years — Pioneering bespoke Indian couture with global sensibility</li>
+                </ul>
+              </div>
+
               <div className={styles.quoteCard}>
                 <span className={styles.quoteIcon}>&ldquo;</span>
                 <p className={styles.quoteText}><em>When a woman steps into an outfit crafted precisely for her, her posture shifts, her gaze lifts, and she radiates a natural, unhurried grace. That transformation is why I founded Flaunt It.</em></p>
@@ -226,7 +263,7 @@ export default function AboutPage() {
               </div>
               <div className={styles.stats}>
                 <div className={styles.stat}>
-                  <span className={styles.statNum}>10+</span>
+                  <span className={styles.statNum}>18+</span>
                   <span className={styles.statLabel}>YEARS OF ATELIER CRAFT</span>
                 </div>
                 <div className={styles.stat}>

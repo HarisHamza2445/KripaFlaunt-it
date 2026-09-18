@@ -628,6 +628,87 @@
   color: var(--gray);
 }
 
+.credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.credentialCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  background: #FFF8F6;
+  border: 1px solid #E7D8D2;
+}
+
+.credentialIcon {
+  font-size: 24px;
+  color: #824F41;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.credentialCard h4 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #824F41;
+  margin: 0 0 6px;
+}
+
+.credentialCard p {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--gray);
+  margin: 0;
+}
+
+.achievements {
+  margin-bottom: 32px;
+}
+
+.achievementsTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: var(--black);
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #E7D8D2;
+}
+
+.achievementsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievementsList li {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--gray);
+  padding: 10px 0;
+  border-bottom: 1px solid #F0E8E4;
+  position: relative;
+  padding-left: 20px;
+}
+
+.achievementsList li::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: #824F41;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
 .founderBadgeRow {
   display: flex;
   align-items: center;
