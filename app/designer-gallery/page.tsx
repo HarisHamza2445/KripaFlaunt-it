@@ -8,16 +8,16 @@ import styles from './designer-gallery.module.css';
 const categories = ['ALL', 'LONDON FASHION WEEK', 'AWARDS', 'CELEBRITY STYLING', 'OTHER DESIGNERS'];
 
 const images = [
-  { src: '/LFW/lfw-1.jpg', alt: 'London Fashion Week 1', category: 'LONDON FASHION WEEK' },
-  { src: '/LFW/lfw-2.jpg', alt: 'London Fashion Week 2', category: 'LONDON FASHION WEEK' },
-  { src: '/awards/award-1.jpg', alt: 'Award Ceremony 1', category: 'AWARDS' },
-  { src: '/awards/award-2.jpg', alt: 'Award Ceremony 2', category: 'AWARDS' },
-  { src: '/awards/award-3.jpg', alt: 'Award Ceremony 3', category: 'AWARDS' },
-  { src: '/other designer/designer-1.jpg', alt: 'With Designer 1', category: 'OTHER DESIGNERS' },
-  { src: '/other designer/designer-2.jpg', alt: 'With Designer 2', category: 'OTHER DESIGNERS' },
-  { src: '/other designer/designer-3.jpg', alt: 'With Designer 3', category: 'OTHER DESIGNERS' },
-  { src: '/other designer/designer-4.jpg', alt: 'With Designer 4', category: 'OTHER DESIGNERS' },
-  { src: '/celebrity/celebrity-1.jpg', alt: 'Celebrity Styling 1', category: 'CELEBRITY STYLING' },
+  { src: '/designer-gallery/lfw-1.jpg', alt: 'London Fashion Week 1', category: 'LONDON FASHION WEEK' },
+  { src: '/designer-gallery/lfw-2.jpg', alt: 'London Fashion Week 2', category: 'LONDON FASHION WEEK' },
+  { src: '/designer-gallery/award-1.jpg', alt: 'Award Ceremony 1', category: 'AWARDS' },
+  { src: '/designer-gallery/award-2.jpg', alt: 'Award Ceremony 2', category: 'AWARDS' },
+  { src: '/designer-gallery/award-3.jpg', alt: 'Award Ceremony 3', category: 'AWARDS' },
+  { src: '/designer-gallery/designer-1.jpg', alt: 'With Designer 1', category: 'OTHER DESIGNERS' },
+  { src: '/designer-gallery/designer-2.jpg', alt: 'With Designer 2', category: 'OTHER DESIGNERS' },
+  { src: '/designer-gallery/designer-3.jpg', alt: 'With Designer 3', category: 'OTHER DESIGNERS' },
+  { src: '/designer-gallery/designer-4.jpg', alt: 'With Designer 4', category: 'OTHER DESIGNERS' },
+  { src: '/designer-gallery/celebrity-1.jpg', alt: 'Celebrity Styling 1', category: 'CELEBRITY STYLING' },
 ];
 
 export default function DesignerGalleryPage() {
