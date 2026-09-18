@@ -197,7 +197,7 @@ export default function AboutPage() {
           <div className={styles.founderContent}>
             <div className={styles.founderLeft}>
               <div className={styles.founderImageCard}>
-                <img src="/img1.png" alt="Kripa Harjwani" loading="lazy" />
+                <img src="/founder.jpeg" alt="Kripa Harjwani" loading="lazy" />
               </div>
               <div className={styles.founderNameCard}>
                 <h3 className={styles.founderName}>Kripa Harjwani</h3>
