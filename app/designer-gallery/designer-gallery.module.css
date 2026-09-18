@@ -116,6 +116,15 @@
   transition: transform 0.5s ease;
 }
 
+.gridItem.tall {
+  height: auto;
+  grid-row: span 2;
+}
+
+.gridItem.tall img {
+  object-fit: contain;
+}
+
 .gridItem:hover img {
   transform: scale(1.03);
 }

@@ -11,7 +11,7 @@ const images = [
   { src: '/designer-gallery/lfw-1.jpg', alt: 'London Fashion Week 1', category: 'LONDON FASHION WEEK' },
   { src: '/designer-gallery/lfw-2.jpg', alt: 'London Fashion Week 2', category: 'LONDON FASHION WEEK' },
   { src: '/designer-gallery/award-1.jpg', alt: 'Award Ceremony 1', category: 'AWARDS' },
-  { src: '/designer-gallery/award-2.jpg', alt: 'Award Ceremony 2', category: 'AWARDS' },
+  { src: '/designer-gallery/award-2.jpg', alt: 'Award Ceremony 2', category: 'AWARDS', tall: true },
   { src: '/designer-gallery/award-3.jpg', alt: 'Award Ceremony 3', category: 'AWARDS' },
   { src: '/designer-gallery/designer-1.jpg', alt: 'With Designer 1', category: 'OTHER DESIGNERS' },
   { src: '/designer-gallery/designer-2.jpg', alt: 'With Designer 2', category: 'OTHER DESIGNERS' },
@@ -97,7 +97,7 @@ export default function DesignerGalleryPage() {
             <div
               key={idx}
               data-index={idx}
-              className={`${styles.gridItem} ${visibleImages.includes(idx) ? styles.visible : ''}`}
+              className={`${styles.gridItem} ${visibleImages.includes(idx) ? styles.visible : ''} ${(img as any).tall ? styles.tall : ''}`}
               onClick={() => openLightbox(idx)}
             >
               <img src={img.src} alt={img.alt} loading="lazy" />
