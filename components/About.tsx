@@ -12,7 +12,7 @@ export default function About() {
             </div>
             <div className={styles.founderImage}>
               <Image
-                src="/img1.png"
+                src="/founder.jpeg"
                 alt="Kripa Harjwani - Founder & Creative Director"
                 width={600}
                 height={800}
