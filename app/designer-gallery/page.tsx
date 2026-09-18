@@ -8,22 +8,15 @@ import styles from './designer-gallery.module.css';
 const categories = ['ALL', 'LONDON FASHION WEEK', 'AWARDS', 'CELEBRITY STYLING', 'OTHER DESIGNERS'];
 
 const images = [
-  { src: '/img100.jpg', alt: 'London Fashion Week 1', category: 'LONDON FASHION WEEK' },
-  { src: '/img101.jpg', alt: 'London Fashion Week 2', category: 'LONDON FASHION WEEK' },
-  { src: '/img102.jpg', alt: 'London Fashion Week 3', category: 'LONDON FASHION WEEK' },
-  { src: '/img103.jpg', alt: 'London Fashion Week 4', category: 'LONDON FASHION WEEK' },
-  { src: '/img104.jpg', alt: 'Award Ceremony 1', category: 'AWARDS' },
-  { src: '/img105.jpg', alt: 'Award Ceremony 2', category: 'AWARDS' },
-  { src: '/img106.jpg', alt: 'Award Ceremony 3', category: 'AWARDS' },
-  { src: '/img107.jpg', alt: 'Award Ceremony 4', category: 'AWARDS' },
-  { src: '/img108.jpg', alt: 'Celebrity Styling 1', category: 'CELEBRITY STYLING' },
-  { src: '/img109.jpg', alt: 'Celebrity Styling 2', category: 'CELEBRITY STYLING' },
-  { src: '/img110.jpg', alt: 'Celebrity Styling 3', category: 'CELEBRITY STYLING' },
-  { src: '/img111.jpg', alt: 'Celebrity Styling 4', category: 'CELEBRITY STYLING' },
-  { src: '/img112.jpg', alt: 'With Designer 1', category: 'OTHER DESIGNERS' },
-  { src: '/img113.jpg', alt: 'With Designer 2', category: 'OTHER DESIGNERS' },
-  { src: '/img114.jpg', alt: 'With Designer 3', category: 'OTHER DESIGNERS' },
-  { src: '/img115.jpg', alt: 'With Designer 4', category: 'OTHER DESIGNERS' },
+  { src: '/LFW/lfw-1.jpg', alt: 'London Fashion Week 1', category: 'LONDON FASHION WEEK' },
+  { src: '/LFW/lfw-2.jpg', alt: 'London Fashion Week 2', category: 'LONDON FASHION WEEK' },
+  { src: '/awards/award-1.jpg', alt: 'Award Ceremony 1', category: 'AWARDS' },
+  { src: '/awards/award-2.jpg', alt: 'Award Ceremony 2', category: 'AWARDS' },
+  { src: '/awards/award-3.jpg', alt: 'Award Ceremony 3', category: 'AWARDS' },
+  { src: '/other designer/designer-1.jpg', alt: 'With Designer 1', category: 'OTHER DESIGNERS' },
+  { src: '/other designer/designer-2.jpg', alt: 'With Designer 2', category: 'OTHER DESIGNERS' },
+  { src: '/other designer/designer-3.jpg', alt: 'With Designer 3', category: 'OTHER DESIGNERS' },
+  { src: '/other designer/designer-4.jpg', alt: 'With Designer 4', category: 'OTHER DESIGNERS' },
 ];
 
 export default function DesignerGalleryPage() {
