@@ -17,6 +17,7 @@ const images = [
   { src: '/other designer/designer-2.jpg', alt: 'With Designer 2', category: 'OTHER DESIGNERS' },
   { src: '/other designer/designer-3.jpg', alt: 'With Designer 3', category: 'OTHER DESIGNERS' },
   { src: '/other designer/designer-4.jpg', alt: 'With Designer 4', category: 'OTHER DESIGNERS' },
+  { src: '/celebrity/celebrity-1.jpg', alt: 'Celebrity Styling 1', category: 'CELEBRITY STYLING' },
 ];
 
 export default function DesignerGalleryPage() {
