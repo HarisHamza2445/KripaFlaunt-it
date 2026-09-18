@@ -6,49 +6,105 @@ import styles from './PortfolioArchive.module.css';
 const portfolioItems = [
   {
     image: '/img3.png',
-    title: 'Mother & Son Coordinated Set',
+    title: 'Blush Bridal Lehenga',
     palette: 'BLUSH & ROSE-GOLD',
-    occasion: 'MOTHER & SON',
+    occasion: 'BRIDAL & HERITAGE',
     tag: '',
   },
   {
     image: '/img4.png',
-    title: 'Deep Wine Velvet Couture',
+    title: 'Crimson Velvet Sharara',
     palette: 'CRIMSON & WINE',
     occasion: 'BRIDAL & HERITAGE',
     tag: '',
   },
   {
     image: '/img5.png',
-    title: 'Emerald & Gold Gala Outfit',
+    title: 'Emerald Zardozi Anarkali',
     palette: 'EMERALD & SAPPHIRE',
-    occasion: 'CELEBRITY & RUNWAY',
+    occasion: 'BRIDAL & HERITAGE',
     tag: '',
   },
   {
     image: '/img6.png',
-    title: 'Blush Bridal Lehenga',
+    title: 'Ivory Gold Bridal Set',
     palette: 'IVORY & ANTIQUE GOLD',
     occasion: 'BRIDAL & HERITAGE',
     tag: '',
   },
   {
-    image: '/img7.png',
+    image: '/img17.png',
+    title: 'Mustard Haldi Festive Set',
+    palette: 'MUSTARD & HALDI GOLD',
+    occasion: 'BRIDAL & HERITAGE',
+    tag: '',
+  },
+  {
+    image: '/img17.png',
+    title: 'Mustard Haldi Festive Set',
+    palette: 'MUSTARD & HALDI GOLD',
+    occasion: 'MOTHER & CHILD',
+    tag: '',
+  },
+  {
+    image: '/img9.png',
     title: 'Rose Gold Cocktail Gown',
     palette: 'BLUSH & ROSE-GOLD',
     occasion: 'COCKTAIL & INDO-WESTERN',
     tag: 'WESTERN & COCKTAIL',
   },
   {
-    image: '/img8.png',
+    image: '/img10.png',
     title: 'Indo-Western Cape Set',
     palette: 'ANTIQUE GOLD & IVORY',
     occasion: 'COCKTAIL & INDO-WESTERN',
     tag: 'INDO-WESTERN FUSION',
   },
+  {
+    image: '/img11.png',
+    title: 'Plum Sequin Cocktail Dress',
+    palette: 'PLUM & AUBERGINE',
+    occasion: 'COCKTAIL & INDO-WESTERN',
+    tag: '',
+  },
+  {
+    image: '/img12.png',
+    title: 'Mint Sage Draped Gown',
+    palette: 'PASTEL MINT & SAGE',
+    occasion: 'COCKTAIL & INDO-WESTERN',
+    tag: '',
+  },
+  {
+    image: '/img19.png',
+    title: 'Champagne Silver Saree Gown',
+    palette: 'METALLIC CHAMPAGNE & SILVER',
+    occasion: 'COCKTAIL & INDO-WESTERN',
+    tag: '',
+  },
+  {
+    image: '/img15.png',
+    title: 'Celebrity Runway Lehenga',
+    palette: 'EMERALD & SAPPHIRE',
+    occasion: 'CELEBRITY & RUNWAY',
+    tag: 'RUNWAY',
+  },
+  {
+    image: '/img16.png',
+    title: 'Red Carpet Metallic Gown',
+    palette: 'METALLIC CHAMPAGNE & SILVER',
+    occasion: 'CELEBRITY & RUNWAY',
+    tag: 'RED CARPET',
+  },
+  {
+    image: '/img18.png',
+    title: 'Navy Celestial Gown',
+    palette: 'MIDNIGHT & NAVY',
+    occasion: 'CELEBRITY & RUNWAY',
+    tag: '',
+  },
 ];
 
-const occasions = ['ALL WORKS', 'BRIDAL & HERITAGE', 'MOTHER & SON', 'COCKTAIL & INDO-WESTERN', 'CELEBRITY & RUNWAY'];
+const occasions = ['ALL WORKS', 'BRIDAL & HERITAGE', 'MOTHER & CHILD', 'COCKTAIL & INDO-WESTERN', 'CELEBRITY & RUNWAY'];
 const palettes = [
   { name: 'ALL COLOURS', color: '' },
   { name: 'BLUSH & ROSE-GOLD', color: '#d4a5a5' },
@@ -71,7 +127,8 @@ export default function PortfolioArchive() {
 
   const filtered = portfolioItems.filter((item) => {
     const matchOccasion = activeOccasion === 'ALL WORKS' || item.occasion === activeOccasion;
-    const matchPalette = activePalette === 'ALL COLOURS' || item.palette === activePalette || item.palette.split(' & ').reverse().join(' & ') === activePalette;
+    const paletteName = activePalette === 'ALL COLOURS' ? '' : activePalette;
+    const matchPalette = !paletteName || item.palette === paletteName;
     return matchOccasion && matchPalette;
   });
 
