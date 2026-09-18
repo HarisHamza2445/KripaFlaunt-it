@@ -46,7 +46,7 @@ export default function Approach() {
             <div className={styles.imageCard}>
               <div className={styles.imageLabel}>
                 <span className={styles.labelDot} />
-                <span>ATELIER PROTOCOL // HAND-TAILORED CUTS</span>
+                <span>HAND-TAILORED CUTS</span>
               </div>
               <div className={styles.approachImage}>
                 <img

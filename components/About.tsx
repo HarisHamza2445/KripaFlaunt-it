@@ -8,7 +8,7 @@ export default function About() {
         <div className={styles.aboutLeft}>
           <div className={styles.founderCard}>
             <div className={styles.cardLabel}>
-              <span>ATELIER DIRECTIVE // THE FOUNDER</span>
+              <span>THE FOUNDER</span>
             </div>
             <div className={styles.founderImage}>
               <Image

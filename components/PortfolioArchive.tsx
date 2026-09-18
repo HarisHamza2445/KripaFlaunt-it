@@ -8,7 +8,7 @@ export default function PortfolioArchive() {
       <div className={styles.portfolioContent}>
         <div className={styles.portfolioHeader}>
           <div className={styles.sectionBadge}>
-            <span>PORTFOLIO ARCHIVE // CRAFTED COMMISSIONS</span>
+            <span>PORTFOLIO</span>
           </div>
           <h2 className={styles.sectionTitle}>Designed to Be Remembered.</h2>
           <div className={styles.titleLine} />

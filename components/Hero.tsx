@@ -47,7 +47,7 @@ export default function Hero() {
         <div className={styles.heroRight}>
           <div className={styles.heroImageCard}>
             <div className={styles.cardHeader}>
-              <span>FIGURE SPEC: 01 // BESPOKE COUTURE ARCHIVE</span>
+              <span>CUSTOM COUTURE COLLECTION</span>
               <span>KRIPA HARJWANI</span>
             </div>
             <div className={styles.cardImageWrap}>

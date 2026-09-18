@@ -131,15 +131,15 @@ export default function ColourStudioPage() {
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <div className={styles.heroLeft}>
-              <a href="/work" className={styles.backLink}>&larr; BACK TO GALLERY ARCHIVES / DESIGNED TO BE REMEMBERED</a>
+              <a href="/work" className={styles.backLink}>&larr; BACK TO WORK</a>
 
               <div className={styles.heroBadge}>
                 <span className={styles.badgeDot} />
-                <span>ATELIER COLOR ARCHIVE &amp; LAB // BESPOKE SHADE CREATION</span>
+                <span>COLOR STUDIO &amp; LAB</span>
               </div>
 
               <h1 className={styles.heroTitle}>
-                Bespoke Colour Studio
+                Colour Studio
                 <br />
                 <em>&amp; Dye-to-Match</em>
               </h1>
@@ -221,7 +221,7 @@ export default function ColourStudioPage() {
                 {/* Signature Atelier Curations */}
                 <div className={styles.curationsSection}>
                   <div className={styles.curationsHeader}>
-                    <span className={styles.curationsLabel}>SIGNATURE ATELIER CURATIONS</span>
+                    <span className={styles.curationsLabel}>SIGNATURE CURATIONS</span>
                     <span className={styles.curationsHint}>Click to preview</span>
                   </div>
                   <div className={styles.curationsGrid}>
@@ -283,7 +283,7 @@ export default function ColourStudioPage() {
               {/* Palette Harmonisation */}
               <div className={styles.harmonySection}>
                 <div className={styles.harmonyHeader}>
-                  <span className={styles.harmonyLabel}>ATELIER PALETTE HARMONISATION</span>
+                  <span className={styles.harmonyLabel}>PALETTE HARMONISATION</span>
                   <span className={styles.harmonyStudio}>Pune Studio</span>
                 </div>
                 <h3 className={styles.harmonyTitle}>Occasion Palette Preview</h3>
@@ -376,7 +376,7 @@ export default function ColourStudioPage() {
         <section className={styles.formSection}>
           <div className={styles.formContent}>
             <div className={styles.formCard}>
-              <span className={styles.formLabel}>ATELIER RESERVATION &amp; DISPATCH</span>
+              <span className={styles.formLabel}>BOOK YOUR SESSION</span>
               <h2 className={styles.formTitle}>Request Your Physical Swatch Kit</h2>
               <p className={styles.formDesc}>
                 Submit your shade specifications above. We will formulate 3 graduated test swatches on your

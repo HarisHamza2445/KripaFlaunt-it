@@ -24,14 +24,14 @@ export default function AboutPage() {
               <div className={styles.heroImageCard}>
                 <img src="/img9.png" alt="Atelier Pune" loading="lazy" />
                 <div className={styles.heroImageOverlay}>
-                  <span className={styles.overlayLabel}>ATELIER PUNE &bull; ARCHIVAL CRAFT</span>
+                  <span className={styles.overlayLabel}>PUNE STUDIO</span>
                   <span className={styles.overlayText}><em>Silken drapes, hand zardozi &amp; micro-pleated tulle</em></span>
                 </div>
               </div>
               <div className={styles.heroRight}>
                 <div className={styles.bespokeCard}>
                   <div className={styles.bespokeLine} />
-                  <span className={styles.bespokeBadge}>BESPOKE MARKERS</span>
+                  <span className={styles.bespokeBadge}>CUSTOM STITCHING</span>
                   <h3 className={styles.bespokeTitle}>A sanctuary for true individuality.</h3>
                   <p className={styles.bespokeDesc}>
                     Every silhouette is meticulously draped and sculpted by hand in our Pune studio, marrying ancestral Indian embroidery with contemporary global elegance.
@@ -123,7 +123,7 @@ export default function AboutPage() {
                 <p className={styles.philDesc}>We value thoughtful details, skilled craftsmanship, and quality materials. We cherish time-honored techniques handed down through master karigars.</p>
                 <div className={styles.philFooter}>
                   <div className={styles.philLine} />
-                  <span>ARCHIVAL KARIGARI</span>
+                  <span>MADE IN INDIA</span>
                 </div>
               </div>
               <div className={styles.philCard}>
