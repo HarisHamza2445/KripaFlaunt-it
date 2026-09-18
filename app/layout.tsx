@@ -3,6 +3,7 @@ import './globals.css';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import BackToTop from '@/components/BackToTop';
 import PageLoader from '@/components/PageLoader';
+import VideoIntro from '@/components/VideoIntro';
 
 export const metadata: Metadata = {
   title: 'Kripa Flaunt It | Bespoke Couture & Custom Stitching',
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ scrollBehavior: 'smooth' }}>
       <body>
+        <VideoIntro />
         <PageLoader />
         {children}
         <WhatsAppButton />
